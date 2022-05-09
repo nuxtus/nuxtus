@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export NODE_ENV=production
+
+# Run any necessary database migration tasks that should happen while the
+# site is paused here.
+#
+# We don't have any, 3.x policy is safe migrations only. -Tom
+
+# node app @apostrophecms/migration:migrate
+#
+#echo "Site migrated"

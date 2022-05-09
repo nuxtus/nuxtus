@@ -1,0 +1,76 @@
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 200;
+}
+
+a {
+  color: $color-purple;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $color-purple-light;
+  }
+}
+
+::selection {
+  background-color: $color-gold;
+}
+
+code {
+  white-space: normal;
+}
+
+pre {
+  display: flex;
+  position: relative;
+  font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.8;
+  tab-size: 4;
+  hyphens: none;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  overflow: auto;
+  background: #2b2b2b;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.bp-button {
+  display: inline-block;
+  padding: 12px 24px 10px 24px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 30px;
+  line-height: 1;
+  font-weight: 500;
+  background: $color-purple;
+  color: white;
+  &:visited, &:hover, &:active {
+    color: white;
+  }
+}
+
+.bp-button--cta {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 30px;
+}

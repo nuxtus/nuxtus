@@ -1,0 +1,73 @@
+// Use flex to keep the footer at the bottom.
+body,
+[data-apos-refreshable],
+.bp-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+[data-apos-refreshable],
+.bp-wrapper,
+main {
+  flex-grow: 1;
+}
+
+body {
+  min-height: 100vh;
+  // Nice system fonts.
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.bp-header,
+main,
+.bp-footer {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 40px 0;
+}
+
+.bp-footer {
+  padding: 40px 0; 
+}
+
+.bp-footer__links {
+  padding-left: 0px;
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  li:last-child { margin-right: 0; }
+}
+
+.bp-header__logo {
+  display: block;
+  width: 190px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.bp-header__login {
+
+  &:visited {
+    color: white;
+  }
+}
+
+.bp-content {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
