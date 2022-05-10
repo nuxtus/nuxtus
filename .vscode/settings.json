@@ -1,7 +1,7 @@
 {
 	"gitflow4code.features": [
 		{
-			"name": "feature/nuxt-3",
+			"name": "feature/tailwind",
 			"base": "develop"
 		}
 	]

@@ -21,3 +21,12 @@ $ cd client
 $ npm i
 $ npm run dev
 ```
+
+## About
+
+A default project set up containing Directus (for server) and Nuxt/Tailwind for frontend.
+
+[Directus](https://directus.io)
+[Nuxt](https://nuxtjs.org)
+  |-- [Tailwind CSS](https://tailwindcss.nuxtjs.org/)
+  	
