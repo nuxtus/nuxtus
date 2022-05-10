@@ -1,8 +1,6 @@
-# Footy Tips
+# Directus Nuxt Boilerplate
 
-Marketing website for sports-tipping.com.au.
-
-Created using [Directus](https://directus.io) backend and [Nuxt](https://nuxtjs.org) frontend.
+A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend.
 
 ## Getting started
 
