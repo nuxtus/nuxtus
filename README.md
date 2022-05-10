@@ -20,7 +20,7 @@ $ npm i
 $ npm run dev
 ```
 
-> Start adding pages by adding .vue files to `/pages` directory.
+> For further instructions visit `[http://localhost:3000](http://localhost:3000)`
 
 ## About
 
