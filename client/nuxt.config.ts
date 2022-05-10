@@ -2,8 +2,22 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-	buildModules: ["@nuxtjs/tailwindcss"],
+	buildModules: [
+		[
+			"@nuxtjs/google-fonts",
+			{
+				/* module options */
+			},
+		],
+		"@nuxtjs/tailwindcss",
+	],
+	googleFonts: {
+		families: {
+			Inter: true,
+		},
+	},
 	tailwindcss: {
 		// Options
+		jit: true,
 	},
 })
