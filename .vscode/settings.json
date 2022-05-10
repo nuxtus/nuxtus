@@ -1,0 +1,8 @@
+{
+	"gitflow4code.features": [
+		{
+			"name": "feature/directus",
+			"base": "develop"
+		}
+	]
+}
