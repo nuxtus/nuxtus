@@ -39,7 +39,7 @@ const { data: users } = await $directus('/users')
       <p class="my-4">Below is an example fetch request from Directus:</p>
       <div>
         <pre class="code mb-4">const { $directus } = useNuxtApp()
-const { data: users } = await $directus('/users', {}) # The second parameter is a useFecth options object</pre>
+const { data: users } = await $directus('/users', {}) # The second parameter is a useFetch options object</pre>
       </div>
       <pre class="code">{{ users }}</pre>
 
