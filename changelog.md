@@ -1,5 +1,9 @@
 # Nuxtus
 
- ## 0.0.1
+## 0.0.2
 
- Initial alpha release.
+- Add DS_Store to gitignore
+
+## 0.0.1
+
+Initial alpha release.
