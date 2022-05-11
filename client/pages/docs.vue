@@ -7,7 +7,7 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
 <template>
   <div class="w-full h-screen bg-gray-100">
     <div class="p-4">
-      <h1>Directus/Nuxt Boilerplate</h1>
+      <h1>Nuxtus - Directus/Nuxt Boilerplate</h1>
       <h2>Directus Admin</h2>
       <p>You can access the Directus admin via <a target="_blank" href="http://localhost:8055">http://localhost:8055</a>.</p>
       <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-4 border border-gray-200">
@@ -18,7 +18,7 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
         </div>
       </div>
       <h3>Database setup</h3>
-      <p>So Directus/Nuxt has no external dependencies to get up and running, Directus is configured to use an SQLite database out of the box. To modify this edit the /server/.env file <a href="https://docs.directus.io/configuration/config-options/#database" target="_blank">database settings</a>. Once changed <strong>you will also need to update the NUXT_PUBLIC_DIRECTUS_TOKEN in /client/.env with the user token for a user you create in the database.</strong> You can then delete the /server/data.db file as it is no longer required.</p>
+      <p>So Nuxtus has no external dependencies to get up and running, Directus is configured to use an SQLite database out of the box. To modify this edit the /server/.env file <a href="https://docs.directus.io/configuration/config-options/#database" target="_blank">database settings</a>. Once changed <strong>you will also need to update the NUXT_PUBLIC_DIRECTUS_TOKEN in /client/.env with the user token for a user you create in the database.</strong> You can then delete the /server/data.db file as it is no longer required.</p>
       <div class="rounded-md bg-yellow-50 p-4 mt-4">
       <div class="flex">
         <div class="flex-shrink-0">

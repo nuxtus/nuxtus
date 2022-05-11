@@ -1,4 +1,4 @@
-# Directus Nuxt Boilerplate
+# Nuxtus
 
 A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend.
 
