@@ -51,7 +51,7 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin', 
       <p>Deploying a completely static build is the cheapest and simplest as all the server side features (ie. Directus and API retrieval) are done locally and compiled at build time. This may be a great workflow for apps where only developers are updating a website but if you want a fully dynamic website, you will need to also deploy Directus on a server too (instructions below). To deploy a website to a static web host (such as Netlify) you can locally build the site (make sure the local Directus server is running!):</p>
       <pre class="code">$ cd client && npx nuxi generate</pre>
       <p>This will create a /dist folder in the client directory which can be uploaded/deployed to your static web host.</p>
-      <h4>Testing a build</h4>
+      <h4 class="mt-2">Testing a build</h4>
       <p>If you wish to test a build before deploying you can by entering the /client/dist folder and:</p>
       <pre class="code">$ npx http-server</pre>
       <h3>Dynamic CMS Builds</h3>

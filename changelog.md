@@ -2,7 +2,7 @@
 
 ## 0.0.2
 
-- Add DS_Store to gitignore
+- Add .DS_Store to gitignore
 
 ## 0.0.1
 
