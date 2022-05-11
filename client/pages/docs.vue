@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ExclamationIcon } from '@heroicons/vue/solid'
 const { $directus } = useNuxtApp()
-const { data: users } = await $directus('/users')
+const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
 </script>
 
 <template>
@@ -35,11 +35,11 @@ const { data: users } = await $directus('/users')
       <h3>Authentication</h3>
       <p>Directus/Nuxt uses a <a href="https://docs.directus.io/reference/authentication/" target="_blank">long lived access token</a> to authenticate with Directus. This is fine for static websites and demonstration purposes but if your application requires secure login and/or role based authentication then you will need to update this. The simplest solution is to create a login procedure and then overwrite the <a href="https://v3.nuxtjs.org/guide/features/runtime-config" target="_blank">runtime configuration value</a> <span class="code">config.public.directusToken</span> with the value you receive on login.</p>
       <h3>Retrieving data via Directus API</h3>
-      <p class="my-4">Although Directus provides a <a href="https://docs.directus.io/reference/sdk/" target="_blank">JS-SDK</a> for retrieving data Directus/Nuxt uses a custom plugin that allows better integration with Nuxt's <a href="https://v3.nuxtjs.org/api/composables/use-fetch" target="_blank">data retrieval composables</a>. Use the <a href="https://docs.directus.io/reference/introduction/" target="_blank">Directus API reference</a> to fetch data.</p>
+      <p class="my-4">Although Directus provides a <a href="https://docs.directus.io/reference/sdk/" target="_blank">JS-SDK</a> for retrieving data Directus/Nuxt uses a custom plugin that allows better integration with Nuxt's <a href="https://v3.nuxtjs.org/api/composables/use-fetch" target="_blank">data retrieval composables</a>. Use the <a href="https://docs.directus.io/reference/introduction/" target="_blank">Directus API reference</a> to modify request. The example below shows a filter applied.</p>
       <p class="my-4">Below is an example fetch request from Directus:</p>
       <div>
         <pre class="code mb-4">const { $directus } = useNuxtApp()
-const { data: users } = await $directus('/users', {}) # The second parameter is a useFetch options object</pre>
+const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin', {}) # The second parameter is a useFetch options object</pre>
       </div>
       <pre class="code">{{ users }}</pre>
 
