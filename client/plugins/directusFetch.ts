@@ -4,18 +4,17 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 	return {
 		provide: {
 			directus: async (uri: string, customOptions?: UseFetchOptions) => {
+				const config = useRuntimeConfig()
 				const options = {
 					method: "GET",
 					headers: {
-						Authorization: "Bearer UNSECURE_ACCESS_TOKEN",
+						Authorization: `Bearer ${config.public.directusToken}`,
 					},
-					baseURL: "http://localhost:8055",
+					baseURL: config.public.directusHost,
 					transform: (result) => result.data,
 					...customOptions,
 				}
-				const result = await useFetch("http://localhost:8055" + uri, options)
-				console.log(result)
-				return result
+				return useFetch(uri, options)
 			},
 		},
 	}

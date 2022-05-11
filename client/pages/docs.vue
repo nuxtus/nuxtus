@@ -12,7 +12,7 @@ const { data: users } = await $directus('/users')
     <p>You can access the Directus admin via <a target="_blank" href="http://localhost:8055">http://localhost:8055</a>.</p>
     <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-4 border border-gray-200">
       <div>
-        <h3 class="text-gray-800 text-lg font-semibold">Default credentials</h3>
+        <h4 class="text-gray-800 text-lg font-semibold">Default credentials</h4>
         <p class="mt-1 text-gray-600">Email: admin@test.com</p>
         <p class="mt-1 text-gray-600">Password: password</p>
       </div>
@@ -32,12 +32,14 @@ const { data: users } = await $directus('/users')
   </div>
     <h2>Content</h2>
     <p>Add your content in <span class="code">clients/pages/index.vue</span>.</p>
+    <h3>Authentication</h3>
+    <p>Directus/Nuxt uses a <a href="https://docs.directus.io/reference/authentication/" target="_blank">long lived access token</a> to authenticate with Directus. This is fine for static websites and demonstration purposes but if your application requires secure login and/or role based authentication then you will need to update this. The simplest solution is to create a login procedure and then overwrite the <a href="https://v3.nuxtjs.org/guide/features/runtime-config" target="_blank">runtime configuration value</a> <span class="code">config.public.directusToken</span> with the value you receive on login.</p>
     <h3>Retrieving data via Directus API</h3>
     <p class="my-4">Although Directus provides a <a href="https://docs.directus.io/reference/sdk/" target="_blank">JS-SDK</a> for retrieving data Directus/Nuxt uses a custom plugin that allows better integration with Nuxt's <a href="https://v3.nuxtjs.org/api/composables/use-fetch" target="_blank">data retrieval composables</a>. Use the <a href="https://docs.directus.io/reference/introduction/" target="_blank">Directus API reference</a> to fetch data.</p>
     <p class="my-4">Below is an example fetch request from Directus:</p>
     <div>
       <pre class="code mb-4">const { $directus } = useNuxtApp()
-const { data: users } = await $directus('/users')</pre>
+const { data: users } = await $directus('/users', {}) # The second parameter is a useFecth options object</pre>
     </div>
     <pre class="code">{{ users }}</pre>
   </div>
