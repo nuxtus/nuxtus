@@ -4,6 +4,8 @@ A website w/ CMS boilerplate using [Directus](https://directus.io) for backend C
 
 ## Getting started
 
+Clone this repo onto your local machine, remove the remote git origin and add a new one.
+
 ### Server (Directus) Setup
 
 ```bash
