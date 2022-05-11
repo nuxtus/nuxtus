@@ -1,0 +1,11 @@
+{
+	"gitflow4code.releases": [],
+	"gitflow4code.init": {
+		"develop": "develop",
+		"master": "main",
+		"releases": "release/",
+		"hotfixes": "hotfix/",
+		"features": "feature/",
+		"support": ""
+	}
+}
