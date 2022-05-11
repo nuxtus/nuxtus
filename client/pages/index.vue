@@ -23,7 +23,7 @@
 
 <style scoped>
 .code {
-  @apply bg-gray-800 text-gray-200 font-mono p-1;
+  @apply bg-gray-800 text-gray-200 font-mono p-2 cursor-default;
 }
 
 h1 {
