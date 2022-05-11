@@ -40,8 +40,10 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
       <p class="my-4">Although Directus provides a <a href="https://docs.directus.io/reference/sdk/" target="_blank">JS-SDK</a> for retrieving data Directus/Nuxt uses a custom plugin that allows better integration with Nuxt's <a href="https://v3.nuxtjs.org/api/composables/use-fetch" target="_blank">data retrieval composables</a>. Use the <a href="https://docs.directus.io/reference/introduction/" target="_blank">Directus API reference</a> to modify request. The example below shows a filter applied.</p>
       <p class="my-4">Below is an example fetch request from Directus:</p>
       <div>
-        <pre class="code mb-4">const { $directus } = useNuxtApp()
-const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin', {}) # The second parameter is a useFetch options object</pre>
+        <pre class="code mb-4"><code v-pre>&lt;script setup lang="ts"&gt;
+  const { $directus } = useNuxtApp()
+  const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
+&lt;/script&gt;</code></pre>
       </div>
       <pre class="code">{{ users }}</pre>
 
