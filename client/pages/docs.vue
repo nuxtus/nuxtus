@@ -39,7 +39,7 @@ const { data: users } = await $directus('/users')
       <p class="my-4">Below is an example fetch request from Directus:</p>
       <div>
         <pre class="code mb-4">const { $directus } = useNuxtApp()
-  const { data: users } = await $directus('/users', {}) # The second parameter is a useFecth options object</pre>
+const { data: users } = await $directus('/users', {}) # The second parameter is a useFecth options object</pre>
       </div>
       <pre class="code">{{ users }}</pre>
 
@@ -69,7 +69,7 @@ const { data: users } = await $directus('/users')
 }
 
 h1 {
-  @apply mb-4 text-3xl font-semibold;
+  @apply mb-8 text-5xl font-semibold;
 }
 
 a {
@@ -81,11 +81,11 @@ a:hover {
 }
 
 h2 {
-  @apply my-2 text-xl font-semibold;
+  @apply my-4 text-2xl font-semibold;
 }
 
 h3 {
-  @apply my-4 text-lg font-semibold;
+  @apply my-4 text-xl font-semibold;
 }
 
 h4 {
