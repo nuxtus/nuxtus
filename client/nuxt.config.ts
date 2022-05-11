@@ -20,4 +20,10 @@ export default defineNuxtConfig({
 		// Options
 		jit: true,
 	},
+	runtimeConfig: {
+		public: {
+			directusHost: "",
+			directusToken: "",
+		},
+	},
 })
