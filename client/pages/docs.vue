@@ -17,7 +17,9 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
           <p class="mt-1 text-gray-600">Password: password</p>
         </div>
       </div>
-      <div class="rounded-md bg-yellow-50 p-4">
+      <h3>Database setup</h3>
+      <p>So Directus/Nuxt has no external dependencies to get up and running, Directus is configured to use an SQLite database out of the box. To modify this edit the /server/.env file <a href="https://docs.directus.io/configuration/config-options/#database" target="_blank">database settings</a>. Once changed <strong>you will also need to update the NUXT_PUBLIC_DIRECTUS_TOKEN in /client/.env with the user token for a user you create in the database.</strong> You can then delete the /server/data.db file as it is no longer required.</p>
+      <div class="rounded-md bg-yellow-50 p-4 mt-4">
       <div class="flex">
         <div class="flex-shrink-0">
           <ExclamationIcon class="h-5 w-5 text-yellow-400" aria-hidden="true" />
@@ -25,7 +27,7 @@ const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
         <div class="ml-3">
           <h4 class="text-sm font-medium text-yellow-800">Admin user</h4>
           <div class="mt-2 text-sm text-yellow-700">
-            <p>Once you are done with set up you should delete this user and replace with one of your own. Be aware it also contains an auth token to demonstrate the data retrieval.</p>
+            <p>If you are using the SQLite setup you should delete this user and replace with one of your own. Be aware it also contains an auth token to demonstrate the data retrieval.</p>
           </div>
         </div>
       </div>
