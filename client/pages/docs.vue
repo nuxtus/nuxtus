@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ExclamationIcon } from '@heroicons/vue/solid'
-const { data } = await useAsyncData('userList', () => $fetch('http://localhost:8055/users/?access_token=UNSECURE_ACCESS_TOKEN'), {transform: (result) => result.data})
+const { $directus } = useNuxtApp()
+const { data: users } = await $directus('/users')
 </script>
 
 <template>
@@ -22,7 +23,7 @@ const { data } = await useAsyncData('userList', () => $fetch('http://localhost:8
         <ExclamationIcon class="h-5 w-5 text-yellow-400" aria-hidden="true" />
       </div>
       <div class="ml-3">
-        <h3 class="text-sm font-medium text-yellow-800">Admin user</h3>
+        <h4 class="text-sm font-medium text-yellow-800">Admin user</h4>
         <div class="mt-2 text-sm text-yellow-700">
           <p>Once you are done with set up you should delete this user and replace with one of your own. Be aware it also contains an auth token to demonstrate the data retrieval.</p>
         </div>
@@ -31,9 +32,14 @@ const { data } = await useAsyncData('userList', () => $fetch('http://localhost:8
   </div>
     <h2>Content</h2>
     <p>Add your content in <span class="code">clients/pages/index.vue</span>.</p>
+    <h3>Retrieving data via Directus API</h3>
+    <p class="my-4">Although Directus provides a <a href="https://docs.directus.io/reference/sdk/" target="_blank">JS-SDK</a> for retrieving data Directus/Nuxt uses a custom plugin that allows better integration with Nuxt's <a href="https://v3.nuxtjs.org/api/composables/use-fetch" target="_blank">data retrieval composables</a>. Use the <a href="https://docs.directus.io/reference/introduction/" target="_blank">Directus API reference</a> to fetch data.</p>
     <p class="my-4">Below is an example fetch request from Directus:</p>
-    <p class="code mb-4">const { data } = await useAsyncData('userList', () => $fetch('http://localhost:8055/users/?access_token=UNSECURE_ACCESS_TOKEN'), {transform: (result) => result.data})</p>
-    <code class="code">{{ data }}</code>
+    <div>
+      <pre class="code mb-4">const { $directus } = useNuxtApp()
+const { data: users } = await $directus('/users')</pre>
+    </div>
+    <pre class="code">{{ users }}</pre>
   </div>
   </div>
 </template>
@@ -61,5 +67,9 @@ a:hover {
 
 h2 {
   @apply my-2 text-xl font-semibold;
+}
+
+h3 {
+  @apply my-4 text-lg font-semibold;
 }
 </style>
