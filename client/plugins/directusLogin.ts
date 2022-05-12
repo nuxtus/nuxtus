@@ -1,6 +1,5 @@
 export default defineNuxtPlugin(async (nuxtApp) => {
 	const config = useRuntimeConfig()
-	console.log("CONFIG URL", config)
 	const { login } = useDirectusAuth()
 	try {
 		await login({

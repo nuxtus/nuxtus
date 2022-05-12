@@ -36,12 +36,11 @@ const user = useDirectusUser();
       <h3>Authentication</h3>
       <p>Directus/Nuxt uses a <a href="https://docs.directus.io/reference/authentication/" target="_blank">long lived access token</a> to authenticate with Directus. This is fine for static websites and demonstration purposes but if your application requires secure login and/or role based authentication then you will need to update this. The simplest solution is to create a login procedure and then overwrite the <a href="https://v3.nuxtjs.org/guide/features/runtime-config" target="_blank">runtime configuration value</a> <span class="code">config.public.directusToken</span> with the value you receive on login.</p>
       <h3>Retrieving data via Directus API</h3>
-      <p class="my-4">Nuxtus uses the Directus recommended <a href="https://nuxt-directus.netlify.app/" target="_blank">nuxt-directus</a> package to interact with the Directus API.</p>
+      <p class="my-4">Nuxtus uses the Directus recommended <a href="https://nuxt-directus.netlify.app/" target="_blank">nuxt-directus</a> package to interact with the Directus API. Visit their website for more details on accessing data.</p>
       <p class="my-4">Below is an example fetch request from Directus:</p>
       <div>
         <pre class="code code-block mb-4"><code v-pre>&lt;script setup lang="ts"&gt;
-  const { $directus } = useNuxtApp()
-  const { data: users } = await $directus('/users?filter[first_name][_eq]=Admin')
+  const user = useDirectusUser();
 &lt;/script&gt;</code></pre>
       </div>
       <pre class="code code-block">{{ user }}</pre>
