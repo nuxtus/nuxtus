@@ -17,7 +17,7 @@ const user = useDirectusUser();
         </div>
       </div>
       <h3>Database setup</h3>
-      <p>So Nuxtus has no external dependencies to get up and running, Directus is configured to use an SQLite database out of the box. To modify this edit the /server/.env file <a href="https://docs.directus.io/configuration/config-options/#database" target="_blank">database settings</a>. Once changed <strong>you will also need to update the NUXT_PUBLIC_DIRECTUS_TOKEN in /client/.env with the user token for a user you create in the database.</strong> You can then delete the /server/data.db file as it is no longer required.</p>
+      <p>So Nuxtus has no external dependencies to get up and running, Directus is configured to use an SQLite database out of the box. To modify this edit the /server/.env file <a href="https://docs.directus.io/configuration/config-options/#database" target="_blank">database settings</a>. You can then delete the /server/data.db file as it is no longer required.</p>
       <div class="rounded-md bg-yellow-50 p-4 mt-4">
       <div class="flex">
         <div class="flex-shrink-0">
