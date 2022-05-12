@@ -4,7 +4,7 @@ const user = useDirectusUser();
 </script>
 
 <template>
-  <div class="w-full h-screen bg-gray-100">
+  <div class="w-full h-full bg-gray-100">
     <div class="p-12">
       <h1>Nuxtus - Directus/Nuxt Boilerplate</h1>
       <h2>Directus Admin</h2>
