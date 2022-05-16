@@ -38,13 +38,41 @@ const user = useDirectusUser();
       <p>Nuxtus uses <a href="https://docs.directus.io/reference/authentication/" target="_blank">Directus Authentication</a> to authenticate to Directus. If you make all your collections publicly readable you can remove the <span class="code">/client/plugins/directusLogin.ts</span> file. Otherwise, update <span class="code">/client/.env</span> with the user credentials that can access the Directus data.</p>
       <h3>Retrieving data via Directus API</h3>
       <p class="my-4">Nuxtus uses the Directus recommended <a href="https://nuxt-directus.netlify.app/" target="_blank">nuxt-directus</a> package to interact with the Directus API. Visit their website for more details on accessing data.</p>
-      <p class="my-4">Below is an example fetch request from Directus:</p>
+      <p class="my-4">Below is a <strong>LIVE</strong> example fetch request from Directus:</p>
       <div>
         <pre class="code code-block mb-4"><code v-pre>&lt;script setup lang="ts"&gt;
   const user = useDirectusUser();
 &lt;/script&gt;</code></pre>
       </div>
       <pre class="code code-block">{{ user }}</pre>
+
+      <p class="my-4"><i>Collection</i> data can be retrieved using <code class="code">useDirectusItems</code>. For example, if you create a collection in Directus called <strong>Articles</strong> then it would be retrieved via:</p>
+
+      <pre class="code code-block"><code v-pre>&lt;script setup lang="ts"&gt;
+const { getItems } = useDirectusItems();
+const router = useRouter();
+
+interface Article {
+  id?: string | number;
+  title: string;
+  content: string;
+  status: string;
+}
+
+const fetchArticles = async () => {
+  try {
+    var filters = { content: "testcontent", title: "Test1" };
+    var items = await getItems&lt;Article&gt;({
+      collection: "News",
+      params: {
+        filter: filters,
+      },
+    });
+  } catch (e) {}
+};
+&lt;/script&gt;</code></pre>
+
+<p class="mt-4">If you wish re re-use data in different pages you can load collection data into <a href="https://v3.nuxtjs.org/guide/features/state-management/" target="_blank">Nuxt's state management</a>.</p>
 
       <h2>Deployment</h2>
       <p>You can update the location of the directus server by editing the clients/.env file.</p>
@@ -57,7 +85,8 @@ const user = useDirectusUser();
       <pre class="code code-block">$ npx http-server</pre>
       <h3>Dynamic CMS Builds</h3>
       <p>This allows changes made via Directus to trigger new builds of your Nuxt app, or realtime retrieval of your data.</p>
-      <p><strong>INSTRUCTIONS COMING SOON</strong></p>
+      <p>First, install Directus using one of the methods in the <a href="https://docs.directus.io/getting-started/installation/" target="_blank">Directus installation page</a>.</p>
+      <p>Then install the /client folder using your <a href="https://v3.nuxtjs.org/guide/deploy/node-server" target="_blank">Nuxt method of choice</a>.</p>
     </div>
   </div>
 </template>
