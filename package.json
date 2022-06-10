@@ -23,6 +23,10 @@
 	"bin": {
 		"create-nuxtus": "./create-app.js"
 	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"dependencies": {
 		"rimraf": "^3.0.2"
 	}
