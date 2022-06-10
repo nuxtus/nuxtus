@@ -30,6 +30,10 @@ Your project will contain 2 folders server (Directus) and client (Nuxt). Run the
 ~/client $ npm run dev
 ```
 
+## Production deployment
+
+By default Directus is configured to accept CORS from any origin. Nuxtus suggests modifying this for your production deployment.
+
 ## Manual setup
 
 Clone this repo onto your local machine, remove the remote git origin and add a new one.
@@ -52,9 +56,4 @@ $ npm run dev
 
 > For further instructions visit `[http://localhost:3000](http://localhost:3000)`
 
-- [Directus](https://directus.io)
-- [Nuxt](https://nuxtjs.org)
-  - [Tailwind CSS](https://tailwindcss.nuxtjs.org/)
-  - [Headless UI](https://headlessui.dev/)
-  - [HeroIcons](https://heroicons.com/)
-  - [Google Fonts](https://github.com/nuxt-community/google-fonts-module)
+
