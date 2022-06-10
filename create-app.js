@@ -36,8 +36,9 @@ async function main() {
 
 		process.chdir(projectPath)
 
-		console.log("Installing dependencies...")
+		console.log("Installing Directus dependencies...")
 		execSync("cd server && npm install")
+		console.log("Installing Nuxt dependencies...")
 		execSync("cd client && npm install")
 
 		console.log("Removing unused files...")

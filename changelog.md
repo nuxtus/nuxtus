@@ -1,5 +1,11 @@
 # Nuxtus
 
+## 1.0.1
+
+- Correct create command in readme
+- Add details on using Nuxtus CLI
+- Update feedback when installing dependencies
+
 ## 1.0.0
 
 - Add `npx nuxtus-create` command
