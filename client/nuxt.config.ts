@@ -11,6 +11,7 @@ export default defineNuxtConfig({
 		],
 		"@nuxtjs/tailwindcss",
 	],
+	modules: ["nuxt-directus"],
 	googleFonts: {
 		families: {
 			Inter: true,
@@ -20,10 +21,9 @@ export default defineNuxtConfig({
 		// Options
 		jit: true,
 	},
-	runtimeConfig: {
-		public: {
-			directusHost: "",
-			directusToken: "",
-		},
+	directus: {},
+	publicRuntimeConfig: {
+		directusEmail: "",
+		directusPassword: "",
 	},
 })

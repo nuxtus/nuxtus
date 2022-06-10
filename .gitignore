@@ -1,6 +1,10 @@
 package-lock.json
 npm-debug.log
 node_modules
-.DS_STORE
+.DS_Store
 server/uploads/*
 .vscode
+client/pages/*
+.cache 
+dist 
+build
