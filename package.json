@@ -1,0 +1,29 @@
+{
+	"name": "@nuxtus/nuxtus",
+	"description": "Directus/Nuxt boilerplate with Tailwind CSS.",
+	"version": "1.0.0",
+	"main": "create-app.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nuxtus/nuxtus.git"
+	},
+	"keywords": [
+		"Directus",
+		"Nuxt",
+		"boilerplate",
+		"Tailwind",
+		"Tailwindcss"
+	],
+	"author": "Craig Harman",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/nuxtus/nuxtus/issues"
+	},
+	"homepage": "https://github.com/nuxtus/nuxtus#readme",
+	"bin": {
+		"create-nuxtus": "./create-app.js"
+	},
+	"dependencies": {
+		"rimraf": "^3.0.2"
+	}
+}

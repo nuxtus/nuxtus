@@ -1,3 +1,4 @@
 
 Todo:
   ☐ Handle fetch failures
+  ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42)

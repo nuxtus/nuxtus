@@ -1,8 +1,13 @@
 # Nuxtus
 
+## 1.0.0
+
+- Add `npx nuxtus-create` command
+
 ## 0.0.2
 
 - Move to using [nuxt-directus package](https://nuxt-directus.netlify.app/)
+- Add @nuxtus/cli
 - Add .DS_Store to gitignore
 
 ## 0.0.1

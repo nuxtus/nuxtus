@@ -21,16 +21,9 @@ export default defineNuxtConfig({
 		// Options
 		jit: true,
 	},
-	// directus: {
-	// 	url: "",
-	// },
-	runtimeConfig: {
-		public: {
-			directusEmail: "",
-			directusPassword: "",
-		},
-		directus: {
-			url: "",
-		},
+	directus: {},
+	publicRuntimeConfig: {
+		directusEmail: "",
+		directusPassword: "",
 	},
 })
