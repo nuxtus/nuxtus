@@ -23,11 +23,28 @@ $ cd app-name
 
 > Replace `app-name` with the name of your website or application.
 
-Your project will contain 2 folders server (Directus) and client (Nuxt). Run them as normal from within each folder:
+Your project will contain 2 folders server (Directus) and client (Nuxt). You can then finish the setup of each as normal.
+
+### Directus
+
+By default Nuxtus uses an SQLite database. If you wish to use an alternative database simply edit the `server/.env` file as suggested in the [Directus documentation](https://docs.directus.io/configuration/config-options/#database) then follow the steps below.
 
 ```bash
-~/server $ npx directus start
-~/client $ npm run dev
+$ cd server
+# From within the root of the project
+$ npm run cli bootstrap
+
+# For SQLite you need to run the command in the 'api' context (to ensure the database file is created in the right directory)
+$ npm run cli bootstrap --workspace=api
+
+$ npx directus start
+```
+
+### Nuxtus
+
+```bash
+$ cd client
+$ npm run dev
 ```
 
 ### Creating pages
@@ -35,7 +52,7 @@ Your project will contain 2 folders server (Directus) and client (Nuxt). Run the
 Nuxtus includes Nuxtus CLI which will automatically generate listing and view pages of any Directus collections. To use it:
 
 1. Log in to Directus ([http://0.0.0.0:8055/admin/login](http://0.0.0.0:8055/admin/login)) and [create a collection](https://docs.directus.io/configuration/data-model/#creating-a-collection)
-2. From the client folder `cd client` run `nuxtus create` and follow the prompts
+2. From the client folder (`cd client`) run `nuxtus create` and follow the prompts
 
 Pages will be created for each collection you select in `clients/pages`. These are a starting point for you to customise.
 
@@ -54,6 +71,7 @@ Clone this repo onto your local machine, remove the remote git origin and add a 
 ```bash
 $ cd server
 $ npm i
+$ npm run cli bootstrap
 $ npx directus start
 ```
 

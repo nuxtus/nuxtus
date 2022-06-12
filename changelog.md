@@ -1,5 +1,13 @@
 # Nuxtus
 
+## 1.0.3
+
+- Add Directus CLI to package.json so `npm run cli` works
+- Update getting started instructions to include database migrations
+- Do not upload the sqlite database, create a new one
+- Add default user/password to Directus .env
+- Add @nuxtus/cli to dev dependencies
+
 ## 1.0.2
 
 - Separate create-nuxt command
