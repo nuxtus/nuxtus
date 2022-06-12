@@ -1,5 +1,9 @@
 # Nuxtus
 
+## 1.0.2
+
+- Separate create-nuxt command
+
 ## 1.0.1
 
 - Correct create command in readme

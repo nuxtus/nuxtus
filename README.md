@@ -17,7 +17,7 @@ It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a 
 ## Quickstart (preferred)
 
 ```bash
-$ npx @nuxts/nuxtus app-name
+$ npx create-nuxtus app-name
 $ cd app-name
 ```
 

@@ -1,8 +1,7 @@
 {
 	"name": "@nuxtus/nuxtus",
 	"description": "Directus/Nuxt boilerplate with Tailwind CSS.",
-	"version": "1.0.1",
-	"main": "create-app.js",
+	"version": "1.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
@@ -20,14 +19,8 @@
 		"url": "https://github.com/nuxtus/nuxtus/issues"
 	},
 	"homepage": "https://github.com/nuxtus/nuxtus#readme",
-	"bin": {
-		"create-nuxtus": "./create-app.js"
-	},
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
-	},
-	"dependencies": {
-		"rimraf": "^3.0.2"
 	}
 }
