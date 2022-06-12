@@ -5,3 +5,4 @@ node_modules
 server/uploads/*
 .vscode
 client/pages/*
+.vscode
