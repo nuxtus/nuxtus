@@ -7,6 +7,7 @@
 - Do not upload the sqlite database, create a new one
 - Add default user/password to Directus .env
 - Add @nuxtus/cli to dev dependencies
+- Update `pages/docs.vue` with details on using @nuxtus/cli
 
 ## 1.0.2
 

@@ -36,7 +36,15 @@ const user = useDirectusUser();
       <h3>Authentication</h3>
       <!-- <p>Nuxtus uses a <a href="https://docs.directus.io/reference/authentication/" target="_blank">long lived access token</a> to authenticate with Directus. This is fine for static websites and demonstration purposes but if your application requires secure login and/or role based authentication then you will need to update this. The simplest solution is to create a login procedure and then overwrite the <a href="https://v3.nuxtjs.org/guide/features/runtime-config" target="_blank">runtime configuration value</a> <span class="code">config.public.directusToken</span> with the value you receive on login.</p> -->
       <p>Nuxtus uses <a href="https://docs.directus.io/reference/authentication/" target="_blank">Directus Authentication</a> to authenticate to Directus. If you make all your collections publicly readable you can remove the <span class="code">/client/plugins/directusLogin.ts</span> file. Otherwise, update <span class="code">/client/.env</span> with the user credentials that can access the Directus data.</p>
-      <h3>Retrieving data via Directus API</h3>
+      
+      <h3>Retrieving data via Directus API (Automatically)</h3>
+      <p class="my-4">Nuxtus includes a CLI that can auto generate listing/index and single pages. To use it simply run the following from the command line:</p>
+      <div>
+        <pre class="code code-block mb-4"><code v-pre>nuxtus create</code></pre>
+      </div>
+      <p class="my-4">You will be presented with a list of Directus Collections, select the ones you want to generate pages for and follow the prompts. Nuxtus will generate pages in the /pages folder with a subfolder for each Collection.</p>
+      
+      <h3>Retrieving data via Directus API (Manual)</h3>
       <p class="my-4">Nuxtus uses the Directus recommended <a href="https://nuxt-directus.netlify.app/" target="_blank">nuxt-directus</a> package to interact with the Directus API. Visit their website for more details on accessing data.</p>
       <p class="my-4">Below is a <strong>LIVE</strong> example fetch request from Directus:</p>
       <div>
