@@ -6,4 +6,3 @@ server/uploads/*
 .vscode
 client/pages/*
 .vscode
-server/data.db

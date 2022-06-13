@@ -31,6 +31,7 @@ By default Nuxtus uses an SQLite database. If you wish to use an alternative dat
 
 ```bash
 $ cd server
+
 # From within the root of the project
 $ npm run cli bootstrap
 
