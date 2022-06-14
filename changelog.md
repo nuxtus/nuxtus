@@ -1,5 +1,11 @@
 # Nuxtus
 
+## 1.0.4
+
+- Hard delete the data.db file
+- Update @nuxtus-cli to 1.0.2
+- Update Nuxt to 3.0.0-rc.4
+
 ## 1.0.3
 
 - Add Directus CLI to package.json so `npm run cli` works
