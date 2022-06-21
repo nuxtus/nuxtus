@@ -4,3 +4,11 @@ Todo:
   ✔ Update docs.vue to use nuxtus-cli instead @done(22-06-12 20:57)
   ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06)
   ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42)
+  ✔ Set up [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) @done(22-06-16 20:23)
+  ☐ Setup [semantic release](https://github.com/semantic-release/semantic-release)
+  ✔ Add interactive/pretty CLI for create-app.js @done(22-06-16 20:23)
+  ☐ Query database use (via interactive shell) in create-app.js
+  ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
+  ☐ Look at https://renovatebot.com/
+  ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
+  ☐ Look into using a Directus hook to automatically generate the Nuxt pages!
