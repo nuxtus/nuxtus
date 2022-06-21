@@ -5,6 +5,7 @@
 - Hard delete the data.db file
 - Update @nuxtus-cli to 1.0.2
 - Update Nuxt to 3.0.0-rc.4
+- Add client, server and start npm scripts
 
 ## 1.0.3
 
