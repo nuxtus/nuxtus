@@ -22,5 +22,13 @@
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"client": "cd client && npm run dev",
+		"server": "cd server && npx directus start",
+		"start": "concurrently \"npm run client\" \"npm run server\""
+	},
+	"devDependencies": {
+		"concurrently": "^7.2.2"
 	}
 }

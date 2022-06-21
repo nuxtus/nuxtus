@@ -18,12 +18,13 @@ It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a 
 
 ```bash
 $ npx create-nuxtus app-name
-$ cd app-name
 ```
 
 > Replace `app-name` with the name of your website or application.
 
-Your project will contain 2 folders server (Directus) and client (Nuxt). You can then finish the setup of each as normal.
+Nuxtus will automatically start Directus and Nuxt in development mode if you are using SQLite. Otherwise follow the directions below to manually configure your database and get started.
+
+Your project will contain 2 folders server (Directus) and client (Nuxt).
 
 ### Directus
 
@@ -34,18 +35,18 @@ $ cd server
 
 # From within the root of the project
 $ npm run cli bootstrap
-
-# For SQLite you need to run the command in the 'api' context (to ensure the database file is created in the right directory)
-$ npm run cli bootstrap --workspace=api
-
-$ npx directus start
 ```
 
-### Nuxtus
+### Nuxt
+
+No set up for Nuxt is required.
+
+### Starting Nuxtus
+
+From inside your project folder:
 
 ```bash
-$ cd client
-$ npm run dev
+$ npm start
 ```
 
 ### Creating pages
@@ -65,24 +66,7 @@ By default Directus is configured to accept CORS from any origin. Nuxtus suggest
 
 ## Manual setup
 
-Clone this repo onto your local machine, remove the remote git origin and add a new one.
-
-### Server (Directus) Setup
-
-```bash
-$ cd server
-$ npm i
-$ npm run cli bootstrap
-$ npx directus start
-```
-
-### Client (Nuxt) Setup
-
-```bash
-$ cd client
-$ npm i
-$ npm run dev
-```
+Clone this repo onto your local machine, remove the remote git origin and add a new one. Then follow the [manual install instructions](#directus).
 
 > For further instructions visit `[http://localhost:3000](http://localhost:3000)`
 
