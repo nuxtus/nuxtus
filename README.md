@@ -22,7 +22,7 @@ $ npx create-nuxtus app-name
 
 > Replace `app-name` with the name of your website or application.
 
-Nuxtus will automatically start Directus and Nuxt in development mode if you are using SQLite. Otherwise follow the directions below to manually configure your database and get started.
+Nuxtus will automatically migrate the Directus DB if you are using SQLite. Otherwise follow the directions below to manually configure your database and get started.
 
 Your project will contain 2 folders server (Directus) and client (Nuxt).
 

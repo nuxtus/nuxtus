@@ -1,5 +1,9 @@
 # Nuxtus
 
+## 1.0.5
+
+- Update nuxtus-cli to v1.0.3
+
 ## 1.0.4
 
 - Hard delete the data.db file
