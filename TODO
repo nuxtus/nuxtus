@@ -7,8 +7,9 @@ Todo:
   ✔ Set up [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) @done(22-06-16 20:23)
   ☐ Setup [semantic release](https://github.com/semantic-release/semantic-release)
   ✔ Add interactive/pretty CLI for create-app.js @done(22-06-16 20:23)
-  ☐ Query database use (via interactive shell) in create-app.js
+  ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26)
   ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
   ☐ Look at https://renovatebot.com/
   ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
   ☐ Look into using a Directus hook to automatically generate the Nuxt pages!
+  ☐ Add ability to automatically update .env for none SQLite databases
