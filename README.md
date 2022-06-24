@@ -2,9 +2,17 @@
 
 A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend.
 
+
+https://user-images.githubusercontent.com/324026/175020548-57ee94b3-dee4-4b12-a8c8-6c0f1a94fab4.mov
+
+
 The purpose of this template is to be a quick-start for developing a website with Nuxt.js using Directus as the backend. The end result can be a static website or dynamically pull data from Directus depending on your preference.
 
 It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a command line interface for quickly creating multiple index/detail pages from any Directus collections.
+
+https://user-images.githubusercontent.com/324026/175452950-46bd51a6-3fd9-441d-80fd-c6bbfaa01929.mp4
+
+## Features
 
 - [Directus](https://directus.io)
 - [Nuxt](https://nuxtjs.org)

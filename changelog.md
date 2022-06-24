@@ -1,5 +1,9 @@
 # Nuxtus
 
+## 1.0.6
+
+- Add Directus Sync Nuxt plugin to allow Collection syncing
+
 ## 1.0.5
 
 - Update nuxtus-cli to v1.0.3
