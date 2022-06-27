@@ -7,6 +7,6 @@ export default defineNuxtPlugin(async (nuxtApp) => {
 			password: config.public.directusPassword,
 		})
 	} catch (error) {
-		// console.error(error)
+		console.error(error)
 	}
 })

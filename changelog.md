@@ -3,6 +3,7 @@
 ## 1.0.6
 
 - Add Directus Sync Nuxt plugin to allow Collection syncing
+- Update to Directus 9.12.0 to get Flows
 
 ## 1.0.5
 
