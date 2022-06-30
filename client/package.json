@@ -11,7 +11,7 @@
     "@nuxtjs/tailwindcss": "^5.0.4",
     "@nuxtus/cli": "^1.0.4",
     "nuxt": "3.0.0-rc.4",
-    "@nuxtus/generator": "^1.0.0"
+    "@nuxtus/generator": "1.0.0"
   },
   "dependencies": {
     "@headlessui/vue": "^1.6.1",
