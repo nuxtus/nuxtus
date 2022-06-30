@@ -1,11 +1,10 @@
-import { createPage } from "@nuxtus/cli"
+import { createPage } from "@nuxtus/generator"
 
 export default defineEventHandler(async (event) => {
 	if (process.env.NODE_ENV !== "production") {
 		const body = await useBody(event)
-		const collection = body.collection
-		createPage(collection.collection, collection.singleton)
-		// body.collection {singleton: boolean, collection: string}
+		// TODO: Wrap in try/catch and return HTTP error if errors
+		createPage(body.collection, body.singleton)
 		return {
 			api: "ok",
 		}
