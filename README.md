@@ -57,7 +57,27 @@ From inside your project folder:
 $ npm start
 ```
 
-### Creating pages
+### Automatically creating pages
+
+**Nuxtus automagically creates Nuxt pages as soon as you create a new Directus collection!**
+
+Nuxtus includes a POST endpoint located /api/directus/collection that will run in development. If you used `npx create-nuxtus` to create your Nuxtus project and selected "yes" to automatically creating pages from Directus then this is already configured in Directus for you.
+
+If not, create a new Flow in Directus as follows:
+
+#### Trigger
+
+Type: action
+Scope: items.create
+Collections: directus_collections
+
+#### Webhook / Request URL
+
+URL: http://localhost:3000/api/directus/collection
+Method: POST
+Request Body: `{{$last.payload}}`
+
+### Manually creating pages
 
 Nuxtus includes Nuxtus CLI which will automatically generate listing and view pages of any Directus collections. To use it:
 

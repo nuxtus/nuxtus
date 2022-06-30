@@ -2,8 +2,8 @@
 
 ## 1.0.6
 
-- Add Directus Sync Nuxt plugin to allow Collection syncing
-- Update to Directus 9.12.0 to get Flows
+- Add server api endpoint to be used as Directus webhook
+- Update to Directus 9.12.0 to get Flows feature
 
 ## 1.0.5
 
