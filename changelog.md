@@ -3,7 +3,7 @@
 ## 1.0.6
 
 - Add server api endpoint to be used as Directus webhook
-- Update to Directus 9.12.0 to get Flows feature
+- Update to Directus 9.13.0 to get Flows feature
 
 ## 1.0.5
 
