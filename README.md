@@ -1,6 +1,6 @@
 # Nuxtus
 
-A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend.
+A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend that can also **automagically** create pages when you create Directus collections.
 
 
 https://user-images.githubusercontent.com/324026/175020548-57ee94b3-dee4-4b12-a8c8-6c0f1a94fab4.mov
@@ -91,6 +91,8 @@ For more details on [Nuxtus CLI](https://github.com/nuxtus/cli) click [here](htt
 ## Production deployment
 
 By default Directus is configured to accept CORS from any origin. Nuxtus suggests modifying this for your production deployment.
+
+If you chose to install, remove the Nuxtus hook extension by deleting the folder `server/extensions/hooks/nuxtus-hook` from your project.
 
 ## Manual setup
 
