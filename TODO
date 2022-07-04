@@ -11,5 +11,7 @@ Todo:
   ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
   ☐ Look at https://renovatebot.com/
   ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
-  ☐ Look into using a Directus hook to automatically generate the Nuxt pages!
+  ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
+  ☐ Can I HMR when adding new pages/routes?
+  ☐ Add all questions in create-app to start of process for better user flow

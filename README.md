@@ -1,10 +1,18 @@
 # Nuxtus
 
-A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend.
+A website w/ CMS boilerplate using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend that can also **automagically** create pages when you create Directus collections.
+
+
+https://user-images.githubusercontent.com/324026/175020548-57ee94b3-dee4-4b12-a8c8-6c0f1a94fab4.mov
+
 
 The purpose of this template is to be a quick-start for developing a website with Nuxt.js using Directus as the backend. The end result can be a static website or dynamically pull data from Directus depending on your preference.
 
 It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a command line interface for quickly creating multiple index/detail pages from any Directus collections.
+
+https://user-images.githubusercontent.com/324026/175452950-46bd51a6-3fd9-441d-80fd-c6bbfaa01929.mp4
+
+## Features
 
 - [Directus](https://directus.io)
 - [Nuxt](https://nuxtjs.org)
@@ -49,7 +57,27 @@ From inside your project folder:
 $ npm start
 ```
 
-### Creating pages
+### Automatically creating pages
+
+**Nuxtus automagically creates Nuxt pages as soon as you create a new Directus collection!**
+
+Nuxtus includes a POST endpoint located /api/directus/collection that will run in development. If you used `npx create-nuxtus` to create your Nuxtus project and selected "yes" to automatically creating pages from Directus then this is already configured in Directus for you.
+
+If not, create a new Flow in Directus as follows:
+
+#### Trigger
+
+Type: action
+Scope: items.create
+Collections: directus_collections
+
+#### Webhook / Request URL
+
+URL: http://localhost:3000/api/directus/collection
+Method: POST
+Request Body: `{{$last.payload}}`
+
+### Manually creating pages
 
 Nuxtus includes Nuxtus CLI which will automatically generate listing and view pages of any Directus collections. To use it:
 
@@ -63,6 +91,8 @@ For more details on [Nuxtus CLI](https://github.com/nuxtus/cli) click [here](htt
 ## Production deployment
 
 By default Directus is configured to accept CORS from any origin. Nuxtus suggests modifying this for your production deployment.
+
+If you chose to install, remove the Nuxtus hook extension by deleting the folder `server/extensions/hooks/nuxtus-hook` from your project.
 
 ## Manual setup
 
