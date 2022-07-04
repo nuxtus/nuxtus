@@ -1,5 +1,11 @@
 # Nuxtus
 
+## 1.0.6
+
+- Add server api endpoint to be used as Directus webhook
+- Update to Directus 9.13.0
+- Update readme with details on using Collections hook
+
 ## 1.0.5
 
 - Update nuxtus-cli to v1.0.3
