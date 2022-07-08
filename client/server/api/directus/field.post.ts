@@ -20,11 +20,11 @@ export default defineEventHandler(async (event) => {
 		}
 		const openapi = await axios.get("http://localhost:8055/server/specs/oas")
 		// console.log(JSON.stringify(openapi.data.components.schemas))
-		const output = await openapiTS(openapi.data)
+		const types = await openapiTS(openapi.data)
 		if (!fs.existsSync("interfaces")) {
 			fs.mkdirSync("interfaces")
 		}
-		fs.writeFileSync("interfaces/nuxtus.ts", output)
+		fs.writeFileSync("interfaces/nuxtus.ts", types)
 		return {
 			api: "ok",
 		}

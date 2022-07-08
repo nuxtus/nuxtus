@@ -8,3 +8,4 @@ client/pages/*
 .vscode
 server/data.db
 client/interfaces/*
+server/extensions/hooks/*

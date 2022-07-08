@@ -17,3 +17,4 @@ Todo:
   ☐ Add all questions in create-app to start of process for better user flow
   ☐ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded)
   ☐ Add "types" to cli to update tpyes from Directus when not using hook
+  ☐ Make opening browser window on start optional using npm run start
