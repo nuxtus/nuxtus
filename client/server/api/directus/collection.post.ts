@@ -1,5 +1,4 @@
 import { createPage } from "@nuxtus/generator"
-import { createRouter } from "h3"
 
 export default defineEventHandler(async (event) => {
 	if (process.env.NODE_ENV !== "production") {

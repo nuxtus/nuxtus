@@ -13,5 +13,7 @@ Todo:
   ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
-  ☐ Can I HMR when adding new pages/routes?
+  ☐ Can I HMR when adding new pages/routes? - requires Nuxt to fix bug
   ☐ Add all questions in create-app to start of process for better user flow
+  ☐ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded)
+  ☐ Add "types" to cli to update tpyes from Directus when not using hook
