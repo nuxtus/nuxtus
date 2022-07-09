@@ -7,6 +7,7 @@ export default defineEventHandler(async (event) => {
 			const collection = body.collection
 			createPage(collection, body.singleton)
 		} catch (err) {
+			console.error(err.message)
 			throw new Error("Unable to create page: " + err.message)
 		}
 		return {

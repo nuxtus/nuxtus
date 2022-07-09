@@ -20,3 +20,4 @@ Todo:
   ☐ Make opening browser window on start optional using npm run start
   ☐ Make sure separate packages can be used without Nuxt Boilerplate if required
   ☐ Console.log messages from directus extension should be formatted like other directus messages
+  ☐ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request.
