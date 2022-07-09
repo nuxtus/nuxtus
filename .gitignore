@@ -7,5 +7,5 @@ server/uploads/*
 client/pages/*
 .vscode
 server/data.db
-client/interfaces/*
+client/interfaces/nuxtus.ts
 server/extensions/hooks/*

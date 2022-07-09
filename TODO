@@ -18,3 +18,5 @@ Todo:
   ☐ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded)
   ☐ Add "types" to cli to update tpyes from Directus when not using hook
   ☐ Make opening browser window on start optional using npm run start
+  ☐ Make sure separate packages can be used without Nuxt Boilerplate if required
+  ☐ Console.log messages from directus extension should be formatted like other directus messages
