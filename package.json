@@ -1,7 +1,7 @@
 {
 	"name": "@nuxtus/nuxtus",
 	"description": "Directus/Nuxt boilerplate with Tailwind CSS.",
-	"version": "1.0.6",
+	"version": "1.1.0",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
@@ -24,7 +24,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
-		"client": "cd client && npm run dev",
+		"client": "cd client && npm run dev -- -o",
 		"server": "cd server && npx directus start",
 		"start": "concurrently \"npm run client\" \"npm run server\""
 	},

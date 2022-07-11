@@ -1,5 +1,11 @@
 # Nuxtus
 
+## 1.1.0
+
+- Automatically generate types from collections
+- Tidy up server end point
+- Automatically open browser window on Nuxt start
+
 ## 1.0.6
 
 - Add server api endpoint to be used as Directus webhook

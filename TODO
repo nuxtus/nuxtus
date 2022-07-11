@@ -13,5 +13,13 @@ Todo:
   ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
-  ☐ Can I HMR when adding new pages/routes?
+  ☐ Can I HMR when adding new pages/routes? - requires Nuxt to fix bug
   ☐ Add all questions in create-app to start of process for better user flow
+  ☐ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded)
+  ☐ Add "types" to cli to update types from Directus when not using hook
+  ☐ Make opening browser window on start optional using npm run start
+  ☐ Make sure separate packages can be used without Nuxt Boilerplate if required
+  ☐ Console.log messages from directus extension should be formatted like other directus messages
+  ☐ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request.
+  ✔ interfaces/nuxtus.ts should not be in .gitignore other than during my development (remove in create-nuxtus?) @done(22-07-11 12:52)
+  ☐ Add test coverage
