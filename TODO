@@ -5,7 +5,7 @@ Todo:
   ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06)
   ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42)
   ✔ Set up [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) @done(22-06-16 20:23)
-  ☐ Setup [semantic release](https://github.com/semantic-release/semantic-release)
+  ✔ Setup [semantic release](https://github.com/semantic-release/semantic-release) @done(22-07-11 15:57)
   ✔ Add interactive/pretty CLI for create-app.js @done(22-06-16 20:23)
   ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26)
   ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
@@ -22,4 +22,4 @@ Todo:
   ☐ Console.log messages from directus extension should be formatted like other directus messages
   ☐ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request.
   ✔ interfaces/nuxtus.ts should not be in .gitignore other than during my development (remove in create-nuxtus?) @done(22-07-11 12:52)
-  ☐ Add test coverage
+  ☐ Add test coverage (done: generator, nuxtus-cli) @started(22-07-11 17:19)
