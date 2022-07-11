@@ -21,6 +21,7 @@ https://user-images.githubusercontent.com/324026/175452950-46bd51a6-3fd9-441d-80
   - [HeroIcons](https://heroicons.com/)
   - [Google Fonts](https://github.com/nuxt-community/google-fonts-module)
   - [Nuxtus CLI](https://github.com/nuxtus/cli)
+  - Typescript types
 
 ## Quickstart (preferred)
 
@@ -63,23 +64,18 @@ $ npm start
 
 Nuxtus includes a POST endpoint located /api/directus/collection that will run in development. If you used `npx create-nuxtus` to create your Nuxtus project and selected "yes" to automatically creating pages from Directus then this is already configured in Directus for you.
 
-If not, create a new Flow in Directus as follows:
+Collections are also typed automatically, simply prepend "Items" to the collection name as per below:
 
-#### Trigger
+```typescript
+import { components } from "../interfaces/nuxtus";
+type Test = components["schemas"]["ItemsTest"];
+```
 
-Type: action
-Scope: items.create
-Collections: directus_collections
-
-#### Webhook / Request URL
-
-URL: http://localhost:3000/api/directus/collection
-Method: POST
-Request Body: `{{$last.payload}}`
+> Because OpenAPI schemas may have invalid TypeScript characters as names, the square brackets are a safe way to access every property.
 
 ### Manually creating pages
 
-Nuxtus includes Nuxtus CLI which will automatically generate listing and view pages of any Directus collections. To use it:
+Nuxtus includes Nuxtus CLI which will generate listing and view pages of any Directus collection on demand. To use it:
 
 1. Log in to Directus ([http://0.0.0.0:8055/admin/login](http://0.0.0.0:8055/admin/login)) and [create a collection](https://docs.directus.io/configuration/data-model/#creating-a-collection)
 2. From the client folder (`cd client`) run `nuxtus create` and follow the prompts
@@ -100,4 +96,11 @@ Clone this repo onto your local machine, remove the remote git origin and add a 
 
 > For further instructions visit `[http://localhost:3000](http://localhost:3000)`
 
+## Acknowledgements
 
+Nuxtus wouldn't be possible without the following amazing technologies:
+
+[Directus](https://directus.io)
+[Nuxt](https://nuxt.js.org)
+[Nuxt-Directus](https://nuxt-directus.netlify.app/)
+[OpenApi Typescript](https://www.npmjs.com/package/openapi-typescript)
