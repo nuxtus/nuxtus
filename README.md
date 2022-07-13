@@ -46,9 +46,13 @@ $ cd server
 $ npm run cli bootstrap
 ```
 
+> If using Nuxt is not using `http://localhost:3000` update NUXT_SERVER in the `server/.env` file.
+
 ### Nuxt
 
 No set up for Nuxt is required.
+
+> If Directus is not using `http://localhost:8055` update DIRECTUS_SERVER in the `client/.env` file.
 
 ### Starting Nuxtus
 
@@ -67,8 +71,10 @@ Nuxtus includes a POST endpoint located /api/directus/collection that will run i
 Collections are also typed automatically, simply prepend "Items" to the collection name as per below:
 
 ```typescript
-import { components } from "../interfaces/nuxtus";
-type Test = components["schemas"]["ItemsTest"];
+<script setup lang="ts">
+  import { components } from "../interfaces/nuxtus";
+  type Test = components["schemas"]["ItemsTest"];
+</script>
 ```
 
 > Because OpenAPI schemas may have invalid TypeScript characters as names, the square brackets are a safe way to access every property.
@@ -94,7 +100,7 @@ If you chose to install, remove the Nuxtus hook extension by deleting the folder
 
 Clone this repo onto your local machine, remove the remote git origin and add a new one. Then follow the [manual install instructions](#directus).
 
-> For further instructions visit `[http://localhost:3000](http://localhost:3000)`
+> For further instructions post install, visit `[http://localhost:3000](http://localhost:3000)`
 
 ## Acknowledgements
 
