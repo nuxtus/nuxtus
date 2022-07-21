@@ -1,5 +1,12 @@
 Changelog
 
+# [1.2.0](https://github.com/nuxtus/nuxtus/compare/v1.1.1...v1.2.0) (2022-07-21)
+
+
+### Features
+
+* :zap: directus and nuxt server and port are now configurable ([96bda8b](https://github.com/nuxtus/nuxtus/commit/96bda8bfdd03f2cdca5994b5814070480121e904))
+
 ## [1.1.1](https://github.com/nuxtus/nuxtus/compare/v1.1.0...v1.1.1) (2022-07-11)
 
 
