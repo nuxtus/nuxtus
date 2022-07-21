@@ -14,12 +14,18 @@ Todo:
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
   ☐ Can I HMR when adding new pages/routes? - requires Nuxt to fix bug
-  ☐ Add all questions in create-app to start of process for better user flow
-  ☐ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded)
-  ☐ Add "types" to cli to update types from Directus when not using hook
-  ☐ Make opening browser window on start optional using npm run start
+  ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15)
+  ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42)
+  ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01)
+  ☐ Make opening browser window on start optional using npm run start (not possible)
+  ☐ Look at moving login and server/api stuff to a Nuxt module
   ☐ Make sure separate packages can be used without Nuxt Boilerplate if required
-  ☐ Console.log messages from directus extension should be formatted like other directus messages
+  ✔ Console.log messages from directus extension should be formatted like other directus messages @done(22-07-19 20:46)
+  ✔ Add default Directus login to end of create-nuxtus script @done(22-07-19 17:30)
   ☐ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request.
   ✔ interfaces/nuxtus.ts should not be in .gitignore other than during my development (remove in create-nuxtus?) @done(22-07-11 12:52)
-  ☐ Add test coverage (done: generator, nuxtus-cli) @started(22-07-11 17:19)
+  ✔ Add test coverage (done: generator, nuxtus-cli) @started(22-07-11 17:19) @done(22-07-14 08:03) @lasted(2d14h44m55s)
+  ☐ GraphQL?
+  ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
+  ✔ Upgrade nuxt-directus @done(22-07-17 11:32)
+  ☐ Add ability to use Directus static token instead of login (once https://github.com/Intevel/nuxt-directus/pull/54#pullrequestreview-1045062132 completed)
