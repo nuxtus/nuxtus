@@ -1,5 +1,12 @@
 Changelog
 
+# [1.3.0](https://github.com/nuxtus/nuxtus/compare/v1.2.0...v1.3.0) (2022-07-28)
+
+
+### Features
+
+* :sparkles: use @nuxtus/nuxt-module instead of hard-coded plugins and api endpoints ([c34a601](https://github.com/nuxtus/nuxtus/commit/c34a601e107be87649ead02ab99072c40b1a9922))
+
 # [1.2.0](https://github.com/nuxtus/nuxtus/compare/v1.1.1...v1.2.0) (2022-07-21)
 
 
