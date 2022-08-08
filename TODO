@@ -28,7 +28,9 @@ Todo:
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ✔ Upgrade nuxt-directus @done(22-07-17 11:32)
-  ☐ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0)
+  ☐ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too!
   ☐ Get added to some nuxt/directus lists etc.
   ☐ Directus and Nuxt project names in package.json based on project create name.
   ☐ Add Directus and Nuxt URL to create-nuxtus script
+  ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
+  ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
