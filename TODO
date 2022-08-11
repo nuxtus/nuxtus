@@ -10,10 +10,10 @@ Todo:
   ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26)
   ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
   ☐ Look at https://renovatebot.com/
-  ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
+  ✔ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/ @done(22-08-11 16:24)
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
-  ☐ Can I HMR when adding new pages/routes? - requires Nuxt to fix bug
+  ☐ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7
   ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15)
   ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42)
   ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01)
@@ -28,5 +28,10 @@ Todo:
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ✔ Upgrade nuxt-directus @done(22-07-17 11:32)
-  ☐ Add ability to use Directus static token instead of login (once https://github.com/Intevel/nuxt-directus/pull/54#pullrequestreview-1045062132 completed)
+  ☐ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too!
   ☐ Get added to some nuxt/directus lists etc.
+  ☐ Directus and Nuxt project names in package.json based on project create name.
+  ☐ Add Directus and Nuxt URL to create-nuxtus script
+  ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
+  ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
+  ☐ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically!
