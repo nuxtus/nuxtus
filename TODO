@@ -10,10 +10,10 @@ Todo:
   ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26)
   ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
   ☐ Look at https://renovatebot.com/
-  ☐ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/
+  ✔ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/ @done(22-08-11 16:24)
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
-  ☐ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awwaiting rc.7
+  ☐ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7
   ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15)
   ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42)
   ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01)
@@ -34,3 +34,4 @@ Todo:
   ☐ Add Directus and Nuxt URL to create-nuxtus script
   ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
+  ☐ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically!
