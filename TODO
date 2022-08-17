@@ -35,3 +35,4 @@ Todo:
   ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
   ☐ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically!
+  ☐ Nuxtus website should actually pull data from Directus!
