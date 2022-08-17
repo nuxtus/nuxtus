@@ -1,5 +1,12 @@
 Changelog
 
+## [1.3.1](https://github.com/nuxtus/nuxtus/compare/v1.3.0...v1.3.1) (2022-08-17)
+
+
+### Bug Fixes
+
+* :bug: Transpile heroicons for Nuxt 3rc8 compatibility ([3f56efa](https://github.com/nuxtus/nuxtus/commit/3f56efaacfdb5537907acd80b38fa3fe6e1ce12d))
+
 # [1.3.0](https://github.com/nuxtus/nuxtus/compare/v1.2.0...v1.3.0) (2022-07-28)
 
 
