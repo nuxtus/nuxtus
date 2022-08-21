@@ -1,6 +1,6 @@
 
 Todo:
-  ☐ Handle fetch failures
+  ✔ Handle fetch failures @done(22-08-18 18:06)
   ✔ Update docs.vue to use nuxtus-cli instead @done(22-06-12 20:57)
   ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06)
   ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42)
@@ -13,7 +13,7 @@ Todo:
   ✔ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/ @done(22-08-11 16:24)
   ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
   ☐ Add ability to automatically update .env for none SQLite databases
-  ☐ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7
+  ✔ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7 @done(22-08-18 08:05)
   ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15)
   ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42)
   ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01)
@@ -30,9 +30,10 @@ Todo:
   ✔ Upgrade nuxt-directus @done(22-07-17 11:32)
   ☐ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too!
   ☐ Get added to some nuxt/directus lists etc.
-  ☐ Directus and Nuxt project names in package.json based on project create name.
-  ☐ Add Directus and Nuxt URL to create-nuxtus script
+  ✔ Directus and Nuxt project names in package.json based on project create name. @done(22-08-21 20:38)
+  ✔ Add Directus and Nuxt URL to create-nuxtus script @done(22-08-20 12:12)
   ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
-  ☐ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically!
+  ✔ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically! @done(22-08-18 18:07)
   ☐ Nuxtus website should actually pull data from Directus!
+  ☐ Look into nx for running as monorepo instead of concurrent
