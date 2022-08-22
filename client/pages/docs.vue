@@ -12,7 +12,7 @@ const user = useDirectusUser();
       <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-4 border border-gray-200">
         <div>
           <h4 class="text-gray-800">Default credentials</h4>
-          <p class="mt-1 text-gray-600">Email: admin@test.com</p>
+          <p class="mt-1 text-gray-600">Email: admin@example.com</p>
           <p class="mt-1 text-gray-600">Password: password</p>
         </div>
       </div>
