@@ -1,0 +1,20 @@
+{
+	"name": "{{ appName }}",
+	"description": "",
+	"version": "0.0.1",
+	"keywords": [
+		"Directus",
+		"Nuxt",
+		"Nuxtus",
+		"Tailwind",
+		"Tailwindcss"
+	],
+	"scripts": {
+		"client": "cd client && npm run dev -- -o",
+		"server": "cd server && npx directus start",
+		"start": "concurrently \"npm run client\" \"npm run server\""
+	},
+	"devDependencies": {
+		"concurrently": "^7.2.2",
+	}
+}
