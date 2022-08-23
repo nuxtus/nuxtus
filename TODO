@@ -1,39 +1,42 @@
 
 Todo:
-  ✔ Handle fetch failures @done(22-08-18 18:06)
-  ✔ Update docs.vue to use nuxtus-cli instead @done(22-06-12 20:57)
-  ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06)
-  ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42)
-  ✔ Set up [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) @done(22-06-16 20:23)
-  ✔ Setup [semantic release](https://github.com/semantic-release/semantic-release) @done(22-07-11 15:57)
-  ✔ Add interactive/pretty CLI for create-app.js @done(22-06-16 20:23)
-  ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26)
-  ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07)
   ☐ Look at https://renovatebot.com/
-  ✔ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/ @done(22-08-11 16:24)
-  ✔ Create Directus flow via Directus API @done(22-07-04 17:46)
-  ☐ Add ability to automatically update .env for none SQLite databases
-  ✔ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7 @done(22-08-18 08:05)
-  ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15)
-  ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42)
-  ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01)
   ☐ Make opening browser window on start optional using npm run start (not possible)
-  ✔ Look at moving login and server/api stuff to a Nuxt module @done(22-07-28 19:37)
-  ✔ Make sure separate packages can be used without Nuxt Boilerplate if required @done(22-07-28 19:37)
-  ✔ Console.log messages from directus extension should be formatted like other directus messages @done(22-07-19 20:46)
-  ✔ Add default Directus login to end of create-nuxtus script @done(22-07-19 17:30)
   ☐ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request.
-  ✔ interfaces/nuxtus.ts should not be in .gitignore other than during my development (remove in create-nuxtus?) @done(22-07-11 12:52)
-  ✔ Add test coverage (done: generator, nuxtus-cli) @started(22-07-11 17:19) @done(22-07-14 08:03) @lasted(2d14h44m55s)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
-  ✔ Upgrade nuxt-directus @done(22-07-17 11:32)
   ☐ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too!
   ☐ Get added to some nuxt/directus lists etc.
-  ✔ Directus and Nuxt project names in package.json based on project create name. @done(22-08-21 20:38)
-  ✔ Add Directus and Nuxt URL to create-nuxtus script @done(22-08-20 12:12)
-  ☐ Create a new package.json instead of using nuxtus one (remove all semantic release packages)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
-  ✔ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically! @done(22-08-18 18:07)
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Look into nx for running as monorepo instead of concurrent
+  ☐ Add Nuxtus logo to index.vue page
+
+Archive:
+  ✔ Handle fetch failures @done(22-08-18 18:06) @project(Todo)
+  ✔ Update docs.vue to use nuxtus-cli instead @done(22-06-12 20:57) @project(Todo)
+  ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06) @project(Todo)
+  ✔ Make a CLI for creating index/listing pages for Directus API @done(22-06-10 20:42) @project(Todo)
+  ✔ Set up [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) @done(22-06-16 20:23) @project(Todo)
+  ✔ Setup [semantic release](https://github.com/semantic-release/semantic-release) @done(22-07-11 15:57) @project(Todo)
+  ✔ Add interactive/pretty CLI for create-app.js @done(22-06-16 20:23) @project(Todo)
+  ✔ Query database use (via interactive shell) in create-app.js @done(22-06-21 20:26) @project(Todo)
+  ✔ Check node version for compatibility in create-app.js @done(22-06-16 22:07) @project(Todo)
+  ✔ Documentation: https://docusaurus.io/ or https://vuepress.vuejs.org/ @done(22-08-11 16:24) @project(Todo)
+  ✔ Create Directus flow via Directus API @done(22-07-04 17:46) @project(Todo)
+  ✔ Add ability to automatically update .env for none SQLite databases @done(22-08-23 21:00) @project(Todo)
+  ✔ Can I HMR when adding new pages/routes? - https://github.com/nuxt/framework/issues/5766 - awaiting rc.7 @done(22-08-18 08:05) @project(Todo)
+  ✔ Add all questions in create-app to start of process for better user flow @done(22-07-13 19:15) @project(Todo)
+  ✔ Allow use of different ports/URLs for Directus and Nuxt (currently hard-coded) @done(22-07-13 20:42) @project(Todo)
+  ✔ Add "types" to cli to update types from Directus when not using hook - use @directus/sdk for /oas now on all apps @done(22-07-18 17:01) @project(Todo)
+  ✔ Look at moving login and server/api stuff to a Nuxt module @done(22-07-28 19:37) @project(Todo)
+  ✔ Make sure separate packages can be used without Nuxt Boilerplate if required @done(22-07-28 19:37) @project(Todo)
+  ✔ Console.log messages from directus extension should be formatted like other directus messages @done(22-07-19 20:46) @project(Todo)
+  ✔ Add default Directus login to end of create-nuxtus script @done(22-07-19 17:30) @project(Todo)
+  ✔ interfaces/nuxtus.ts should not be in .gitignore other than during my development (remove in create-nuxtus?) @done(22-07-11 12:52) @project(Todo)
+  ✔ Add test coverage (done: generator, nuxtus-cli) @started(22-07-11 17:19) @done(22-07-14 08:03) @lasted(2d14h44m55s) @project(Todo)
+  ✔ Upgrade nuxt-directus @done(22-07-17 11:32) @project(Todo)
+  ✔ Directus and Nuxt project names in package.json based on project create name. @done(22-08-21 20:38) @project(Todo)
+  ✔ Add Directus and Nuxt URL to create-nuxtus script @done(22-08-20 12:12) @project(Todo)
+  ✔ Create a new package.json instead of using nuxtus one (remove all semantic release packages) @done(22-08-23 21:00) @project(Todo)
+  ✔ Use directus install scripts (then copy hook) instead of npm install - this will sort out DB automatically! @done(22-08-18 18:07) @project(Todo)
