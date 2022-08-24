@@ -1,5 +1,14 @@
 Changelog
 
+# [1.4.0](https://github.com/nuxtus/nuxtus/compare/v1.3.1...v1.4.0) (2022-08-24)
+
+
+### Features
+
+* :sparkles: add liquid templates ([4564a69](https://github.com/nuxtus/nuxtus/commit/4564a6983b420353e16147d39b68d909734e8113))
+* :sparkles: docs removed in favor of website ([59611ef](https://github.com/nuxtus/nuxtus/commit/59611efdfff2595fefcb7da3f80cfea53678b282))
+* :sparkles: new default starting page ([07e8dee](https://github.com/nuxtus/nuxtus/commit/07e8dee1475248cc329571c2f32eb9ab5382c579))
+
 ## [1.3.1](https://github.com/nuxtus/nuxtus/compare/v1.3.0...v1.3.1) (2022-08-17)
 
 
