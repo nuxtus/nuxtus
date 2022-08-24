@@ -17,12 +17,9 @@ export default defineNuxtConfig({
 			Inter: true,
 		},
 	},
-	build: {
-		transpile: ['@heroicons/vue']
-	},
 	tailwindcss: {
 		// Options
-		jit: true,
+		// jit: true,
 	},
 	directus: {},
 	nuxtus: {
