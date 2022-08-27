@@ -1,7 +1,7 @@
 {
 	"name": "@nuxtus/nuxtus",
 	"description": "Directus/Nuxt boilerplate with Tailwind CSS.",
-	"version": "1.4.0",
+	"version": "1.5.0",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
@@ -31,7 +31,7 @@
 	"devDependencies": {
 		"@semantic-release/changelog": "^6.0.1",
 		"@semantic-release/git": "^10.0.1",
-		"@semantic-release/github": "^8.0.5",
+		"@semantic-release/github": "^8.0.6",
 		"@semantic-release/release-notes-generator": "^10.0.3",
 		"concurrently": "^7.2.2",
 		"semantic-release": "^19.0.5"

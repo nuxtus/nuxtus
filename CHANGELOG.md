@@ -1,5 +1,17 @@
 Changelog
 
+# [1.5.0](https://github.com/nuxtus/nuxtus/compare/v1.4.0...v1.5.0) (2022-08-27)
+
+
+### Features
+
+* :sparkles: update @nuxtus/cli to allow static token auth ([a3996e7](https://github.com/nuxtus/nuxtus/commit/a3996e715858ea544935d7cf1c4ebd4ffbea8029))
+
+
+### Performance Improvements
+
+* :zap: remove unrequired entries in .env ([064d829](https://github.com/nuxtus/nuxtus/commit/064d8293d06769b6aa96698feba29d032c41778a))
+
 # [1.4.0](https://github.com/nuxtus/nuxtus/compare/v1.3.1...v1.4.0) (2022-08-24)
 
 
