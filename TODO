@@ -2,18 +2,19 @@
 Todo:
   ☐ Look at https://renovatebot.com/
   ☐ Make opening browser window on start optional using npm run start (not possible)
-  ✔ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request. Look into https://github.com/directus/directus/issues/14165?utm_campaign=Newsletter&utm_medium=email&_hsmi=223814263&utm_content=223814263&utm_source=hs_email @done(22-08-29 21:39)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
-  ✔ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too! @done(22-08-27 09:12)
-  ✔ Get added to some nuxt/directus lists etc. @done(22-08-27 09:03)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Look into nx for running as monorepo instead of concurrent
-  ✔ Add Nuxtus logo to index.vue page @done(22-08-24 17:48)
   ☐ How/Where to store the installed version of Nuxtus
 
 Archive:
+  ✔ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request. Look into https://github.com/directus/directus/issues/14165?utm_campaign=Newsletter&utm_medium=email&_hsmi=223814263&utm_content=223814263&utm_source=hs_email @done(22-08-29 21:39) @project(Todo)
+  ✔ Add ability to use Directus static token instead of login (requires nuxt-directus v2.3.0) - UPDATE DOCS cli.md too! @done(22-08-27 09:12) @project(Todo)
+  ✔ Get added to some nuxt/directus lists etc. @done(22-08-27 09:03) @project(Todo)
+  ✔ Add Nuxtus logo to index.vue page @done(22-08-24 17:48) @project(Todo)
+  ✔ If token already generated, do not generate another one (check .env first!) @done(22-08-30 19:51) @project(Todo)
   ✔ Handle fetch failures @done(22-08-18 18:06) @project(Todo)
   ✔ Update docs.vue to use nuxtus-cli instead @done(22-06-12 20:57) @project(Todo)
   ✔ Fix code for singleton page in .vue template @done(22-06-13 19:06) @project(Todo)
