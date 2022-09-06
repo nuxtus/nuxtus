@@ -1,5 +1,13 @@
 Changelog
 
+# [1.6.0](https://github.com/nuxtus/nuxtus/compare/v1.5.2...v1.6.0) (2022-09-06)
+
+
+### Features
+
+* :sparkles: allow for custom Directus URL ([af115b8](https://github.com/nuxtus/nuxtus/commit/af115b8ab128ae68437ebf79bb73301a96758914))
+* :zap: allow for dynamic default directus credentials ([a4ef43e](https://github.com/nuxtus/nuxtus/commit/a4ef43e21c6d63db99a1597643ddb3abb95f2a61))
+
 ## [1.5.2](https://github.com/nuxtus/nuxtus/compare/v1.5.1...v1.5.2) (2022-08-30)
 
 
