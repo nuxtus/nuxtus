@@ -11,9 +11,9 @@
     "@nuxtjs/tailwindcss": "^5.0.4",
     "@nuxtus/cli": "^1.4.0",
     "@nuxtus/nuxt-module": "^1.0.4",
-    "nuxt": "^3.0.0-rc.8"
+    "nuxt": "^3.0.0-rc.9"
   },
   "dependencies": {
-    "nuxt-directus": "^2.3.0"
+    "nuxt-directus": "^3.0.3"
   }
 }
