@@ -1,5 +1,19 @@
 Changelog
 
+## [1.5.2](https://github.com/nuxtus/nuxtus/compare/v1.5.1...v1.5.2) (2022-08-30)
+
+
+### Bug Fixes
+
+* :bug: update @nuxtus/cli to fix token generation issues ([57eed3b](https://github.com/nuxtus/nuxtus/commit/57eed3b9f9d38add0c1a017218b2df36db0152f1))
+
+## [1.5.1](https://github.com/nuxtus/nuxtus/compare/v1.5.0...v1.5.1) (2022-08-29)
+
+
+### Bug Fixes
+
+* :bug: update to @nuxtus/cli 1.3.0 to be able to use static tokens ([88a304c](https://github.com/nuxtus/nuxtus/commit/88a304c1d357b13a92e4a7167050da1f60a9a641))
+
 # [1.5.0](https://github.com/nuxtus/nuxtus/compare/v1.4.0...v1.5.0) (2022-08-27)
 
 
