@@ -8,6 +8,13 @@ Todo:
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Look into nx for running as monorepo instead of concurrent
   ☐ How/Where to store the installed version of Nuxtus
+  ✔ Can I connect Directus Cloud to local Nuxt using Nuxtus? - Could be a good blog article for Directus Blog! @done(22-09-06 15:58)
+  ✔ Add localtunnel to docs @done(22-09-05 16:05)
+  ✔ Prompt user to enter email/password for directus @done(22-09-01 17:57)
+  ☐ Delete a page on item delete
+  ✔ Fix issues with running on Windows (see Github issue) @done(22-09-06 15:17)
+  ✔ Update Nuxt and nuxt-directus packages @done(22-09-06 15:58)
+  ✔ Need to lock all package versions in nuxtus/nuxtus otherwise incompatabilities can occur @done(22-09-06 16:22)
 
 Archive:
   ✔ When adding a new collection the new page triggers a nuxt restart then directus tries to send a field.create which fails. We get around this by getting the create field first but Directus still returns a 404 for the second request. Look into https://github.com/directus/directus/issues/14165?utm_campaign=Newsletter&utm_medium=email&_hsmi=223814263&utm_content=223814263&utm_source=hs_email @done(22-08-29 21:39) @project(Todo)
