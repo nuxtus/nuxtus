@@ -7,9 +7,9 @@ Todo:
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Look into nx for running as monorepo instead of concurrent
-  ☐ How/Where to store the installed version of Nuxtus
+  ✔ How/Where to store the installed version of Nuxtus @done(22-09-11 15:23)
   ✔ Delete a page on item delete @done(22-09-06 20:17)
-  ☐ Test and prompt if git not installed
+  ✔ Test and prompt if git not installed @done(22-09-09 21:04)
 
 Archive:
   ✔ Can I connect Directus Cloud to local Nuxt using Nuxtus? - Could be a good blog article for Directus Blog! @done(22-09-06 15:58) @project(Todo)
