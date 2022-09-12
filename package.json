@@ -50,6 +50,10 @@
 						{
 							"type": "refactor",
 							"release": "minor"
+						},
+						{
+						  "type": "fix",
+						  "release": "patch"
 						}
 					]
 				}
