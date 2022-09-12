@@ -1,12 +1,12 @@
 
 Todo:
-  ☐ Look at https://renovatebot.com/
+  ✔ Look at https://renovatebot.com/ @done(22-09-12 16:20)
   ☐ Make opening browser window on start optional using npm run start (not possible)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
   ☐ Nuxtus website should actually pull data from Directus!
-  ☐ Look into nx for running as monorepo instead of concurrent
+  ✔ Look into nx for running as monorepo instead of concurrent @done(22-09-11 15:50)
   ✔ How/Where to store the installed version of Nuxtus @done(22-09-11 15:23)
   ✔ Delete a page on item delete @done(22-09-06 20:17)
   ✔ Test and prompt if git not installed @done(22-09-09 21:04)
