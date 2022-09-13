@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
       - run: npm install --save-dev @semantic-release/release-notes-generator @semantic-release/changelog@6 @semantic-release/git@10 @semantic-release/github@8 semantic-release@19
