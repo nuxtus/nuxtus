@@ -1,7 +1,7 @@
 
 Todo:
   ✔ Look at https://renovatebot.com/ @done(22-09-12 16:20)
-  ☐ Make opening browser window on start optional using npm run start (not possible)
+  ☐ Make opening browser window on start optional using npm run start (try just running with -- -o at end of start statement)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
