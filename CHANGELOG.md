@@ -1,5 +1,12 @@
 Changelog
 
+## [1.7.1](https://github.com/nuxtus/nuxtus/compare/v1.7.0...v1.7.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nuxt-directus to v3.2.1 ([04c11d7](https://github.com/nuxtus/nuxtus/commit/04c11d73bb054885f51ebaf8c1c42c26052cc911))
+
 # [1.7.0](https://github.com/nuxtus/nuxtus/compare/v1.6.0...v1.7.0) (2022-09-08)
 
 
