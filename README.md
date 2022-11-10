@@ -2,7 +2,7 @@
 
 A website w/ CMS boilerplate and set of utilities for using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend. Can also **automagically** create *typed* pages when you create Directus collections.
 
-> Can be used as a boilerplate or a suite of utility tools.
+> Can be used as a boilerplate or individually as a suite of utilities.
 
 For more details visit [nuxtus.com](https://nuxtus.com) or [read the documentation](https://docs.nuxtus.com)
 
