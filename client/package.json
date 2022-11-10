@@ -11,7 +11,7 @@
     "@nuxtjs/tailwindcss": "5.3.3",
     "@nuxtus/cli": "1.4.0",
     "@nuxtus/nuxt-module": "1.2.0",
-    "nuxt": "3.0.0-rc.9"
+    "nuxt": "3.0.0-rc.13"
   },
   "dependencies": {
     "nuxt-directus": "3.0.3"
