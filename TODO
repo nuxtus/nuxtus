@@ -1,17 +1,18 @@
 
 Todo:
-  ☐ Look at https://renovatebot.com/
-  ☐ Make opening browser window on start optional using npm run start (not possible)
+  ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
-  ☐ Remove Google Fonts module (replace with fonts.bunny.net?)
   ☐ Nuxtus website should actually pull data from Directus!
-  ☐ Look into nx for running as monorepo instead of concurrent
-  ☐ How/Where to store the installed version of Nuxtus
-  ✔ Delete a page on item delete @done(22-09-06 20:17)
-  ☐ Test and prompt if git not installed
+  ☐ Detect when Directus is not running and show error message
 
 Archive:
+  ✔ Look at https://renovatebot.com/ @done(22-09-12 16:20) @project(Todo)
+  ✔ Remove Google Fonts module (replace with fonts.bunny.net?) - won't do @done(22-09-14 15:55) @project(Todo)
+  ✔ Look into nx for running as monorepo instead of concurrent @done(22-09-11 15:50) @project(Todo)
+  ✔ How/Where to store the installed version of Nuxtus @done(22-09-11 15:23) @project(Todo)
+  ✔ Delete a page on item delete @done(22-09-06 20:17) @project(Todo)
+  ✔ Test and prompt if git not installed @done(22-09-09 21:04) @project(Todo)
   ✔ Can I connect Directus Cloud to local Nuxt using Nuxtus? - Could be a good blog article for Directus Blog! @done(22-09-06 15:58) @project(Todo)
   ✔ Add localtunnel to docs @done(22-09-05 16:05) @project(Todo)
   ✔ Prompt user to enter email/password for directus @done(22-09-01 17:57) @project(Todo)
