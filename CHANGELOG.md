@@ -1,5 +1,23 @@
 Changelog
 
+# [1.8.0](https://github.com/nuxtus/nuxtus/compare/v1.7.1...v1.8.0) (2022-11-10)
+
+
+### Bug Fixes
+
+* :bug: Update to Nuxtus 3.0.0-rc.13 ([dbc1ef1](https://github.com/nuxtus/nuxtus/commit/dbc1ef1b5a8a52485b0542a77f775ae222a4d455))
+* :zap: Start server before client ([b6807b5](https://github.com/nuxtus/nuxtus/commit/b6807b54af4f2cf9d101a42de9008cb0a1cd91f3))
+
+
+### Features
+
+* :sparkles: store version number in .version ([b9546b9](https://github.com/nuxtus/nuxtus/commit/b9546b9846f008093407548bd628f1608ef32f62))
+
+
+### Reverts
+
+* :rewind: google-fonts v2.0.0 does not work, reverting ([035c41b](https://github.com/nuxtus/nuxtus/commit/035c41b6e389ab44a88c823e71ceb9e48d223ca6))
+
 ## [1.7.1](https://github.com/nuxtus/nuxtus/compare/v1.7.0...v1.7.1) (2022-11-10)
 
 
