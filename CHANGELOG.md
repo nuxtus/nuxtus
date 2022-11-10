@@ -1,5 +1,12 @@
 Changelog
 
+## [1.8.1](https://github.com/nuxtus/nuxtus/compare/v1.8.0...v1.8.1) (2022-11-10)
+
+
+### Bug Fixes
+
+* :bug: Update google fonts and remove build step ([e65c732](https://github.com/nuxtus/nuxtus/commit/e65c732fc43926d5d8d3ca7a6f0523bd53a16c2b))
+
 # [1.8.0](https://github.com/nuxtus/nuxtus/compare/v1.7.1...v1.8.0) (2022-11-10)
 
 
