@@ -1,5 +1,12 @@
 Changelog
 
+## [1.9.1](https://github.com/nuxtus/nuxtus/compare/v1.9.0...v1.9.1) (2022-11-17)
+
+
+### Bug Fixes
+
+* :bug: Fix nuxt.config declaration ([a305d5d](https://github.com/nuxtus/nuxtus/commit/a305d5dcae45fe3cc3904900184ffb47cf8da07d))
+
 # [1.9.0](https://github.com/nuxtus/nuxtus/compare/v1.8.1...v1.9.0) (2022-11-17)
 
 
