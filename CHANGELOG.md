@@ -1,5 +1,12 @@
 Changelog
 
+# [1.9.0](https://github.com/nuxtus/nuxtus/compare/v1.8.1...v1.9.0) (2022-11-17)
+
+
+### Features
+
+* :sparkles: Update all dependencies to Nuxt 3.0.0 compatible ([d46d787](https://github.com/nuxtus/nuxtus/commit/d46d787b482e7d296bdbfb90433d37b1d44f06bb))
+
 ## [1.8.1](https://github.com/nuxtus/nuxtus/compare/v1.8.0...v1.8.1) (2022-11-10)
 
 
