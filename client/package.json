@@ -10,10 +10,10 @@
     "@nuxtjs/google-fonts": "2.0.0",
     "@nuxtjs/tailwindcss": "6.1.3",
     "@nuxtus/cli": "1.5.0",
-    "@nuxtus/nuxt-module": "1.2.1",
-    "nuxt": "3.0.0-rc.13"
+    "@nuxtus/nuxt-module": "1.3.0",
+    "nuxt": "3.0.0"
   },
   "dependencies": {
-    "nuxt-directus": "3.2.1"
+    "nuxt-directus": "3.2.2"
   }
 }
