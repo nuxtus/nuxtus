@@ -1,5 +1,12 @@
 Changelog
 
+## [2.0.1](https://github.com/nuxtus/nuxtus/compare/v2.0.0...v2.0.1) (2022-11-18)
+
+
+### Bug Fixes
+
+* :bug: Move Directus credentials to public configuration variables ([fb85d82](https://github.com/nuxtus/nuxtus/commit/fb85d8216c9d2949e927606e6bdf3fbb5e2b14d2))
+
 # [2.0.0](https://github.com/nuxtus/nuxtus/compare/v1.9.1...v2.0.0) (2022-11-18)
 
 
