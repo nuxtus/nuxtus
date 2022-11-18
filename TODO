@@ -1,12 +1,13 @@
 
 Todo:
-  ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44)
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Detect when Directus is not running and show error message
 
 Archive:
+  ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44) @project(Todo)
+  ✔ Update to Nuxt 3.0.0 @done(22-11-18 11:33) @project(Todo)
   ✔ Look at https://renovatebot.com/ @done(22-09-12 16:20) @project(Todo)
   ✔ Remove Google Fonts module (replace with fonts.bunny.net?) - won't do @done(22-09-14 15:55) @project(Todo)
   ✔ Look into nx for running as monorepo instead of concurrent @done(22-09-11 15:50) @project(Todo)

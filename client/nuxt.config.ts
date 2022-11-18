@@ -17,8 +17,12 @@ export default {
 	nuxtus: {
 		authDirectus: true,
 	},
-	publicRuntimeConfig: {
-		directusEmail: "",
-		directusPassword: "",
-	},
+	runtimeConfig: {
+		nuxtus: {
+			directus: {
+				email: '',
+				password: ''
+			}
+		}
+	}
 }
