@@ -1,8 +1,16 @@
 # Nuxtus
 
+![Nuxtus Logo](https://www.nuxtus.com/imgs/logo.svg)
+
 A website w/ CMS boilerplate and set of utilities for using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ Tailwind CSS) for frontend. Can also **automagically** create *typed* pages when you create Directus collections.
 
 > Can be used as a boilerplate or individually as a suite of utilities.
+
+## Quick start
+
+```bash
+npx create-nuxtus app-name
+```
 
 For more details visit [nuxtus.com](https://nuxtus.com) or [read the documentation](https://docs.nuxtus.com)
 
