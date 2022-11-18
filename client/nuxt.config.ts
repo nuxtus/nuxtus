@@ -1,9 +1,9 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
 	buildModules: [
-		"@nuxtjs/tailwindcss",
+		'@nuxtjs/google-fonts'
 	],
-	modules: ["nuxt-directus", "@nuxtus/nuxt-module"],
+	modules: ["@nuxtjs/tailwindcss", "nuxt-directus", "@nuxtus/nuxt-module"],
 	googleFonts: {
 		families: {
 			Inter: true,
@@ -18,10 +18,12 @@ export default {
 		authDirectus: true,
 	},
 	runtimeConfig: {
-		nuxtus: {
-			directus: {
-				email: '',
-				password: ''
+		public: {
+			nuxtus: {
+				directus: {
+					email: '',
+					password: ''
+				}
 			}
 		}
 	}
