@@ -1,5 +1,12 @@
 Changelog
 
+# [2.1.0](https://github.com/nuxtus/nuxtus/compare/v2.0.1...v2.1.0) (2022-11-18)
+
+
+### Features
+
+* :sparkles: Update @nuxtus/nuxt-module and @nuxtus/cli ([3894e84](https://github.com/nuxtus/nuxtus/commit/3894e8445053b3a9d4c333cb003c6dad2f527aac))
+
 ## [2.0.1](https://github.com/nuxtus/nuxtus/compare/v2.0.0...v2.0.1) (2022-11-18)
 
 
