@@ -1,5 +1,22 @@
 Changelog
 
+# [2.0.0](https://github.com/nuxtus/nuxtus/compare/v1.9.1...v2.0.0) (2022-11-18)
+
+
+### Bug Fixes
+
+* :bug: Update to Nuxt 3.0.0 runtime config ([73b0f2e](https://github.com/nuxtus/nuxtus/commit/73b0f2e087eef704a766910b583d02f465a8ceb5))
+
+
+### chore
+
+* :memo: Update TODO ([4d4135b](https://github.com/nuxtus/nuxtus/commit/4d4135b37dee893ccec47db64b6b259bf27b16b8))
+
+
+### BREAKING CHANGES
+
+* Directus credentials are now stored in different variable names in nuxt.config.ts and .env
+
 ## [1.9.1](https://github.com/nuxtus/nuxtus/compare/v1.9.0...v1.9.1) (2022-11-17)
 
 

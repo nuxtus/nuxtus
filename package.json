@@ -1,7 +1,7 @@
 {
 	"name": "@nuxtus/nuxtus",
 	"description": "Directus/Nuxt boilerplate with Tailwind CSS.",
-	"version": "1.9.1",
+	"version": "2.0.0",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
