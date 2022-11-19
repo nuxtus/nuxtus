@@ -1,6 +1,5 @@
 # Nuxtus
-
-![Nuxtus Logo](https://www.nuxtus.com/imgs/logo.svg)
+<img src="https://www.nuxtus.com/imgs/logo.svg" alt="Nuxtus Logo" width="300px"/>
 
 A boilerplate and set of utilities for using [Directus](https://directus.io) for backend CMS and [Nuxt](https://nuxtjs.org) (w/ [Tailwind CSS](https://tailwindcss.com)) for frontend. It's core feature is to **automagically** create *typed* pages the instant you create a Directus collection.
 
