@@ -6,7 +6,7 @@ Todo:
   ☐ Detect when Directus is not running and show error message
   ☐ Use nuxt.config in generator login.ts instead of env
   ☐ Move the Directus email/password and token to private server variables and use a server middleware (https://nuxt.com/docs/guide/directory-structure/server#server-middleware) to login and provide AUTH_TOKEN back to client. This workflow only needed if not rendering a static site.
-  ☐ Make nuxtus/nuxtus readme more of a landing page for the entire nuxt project
+  ✔ Make nuxtus/nuxtus readme more of a landing page for the entire nuxt project @done(22-11-19 15:20)
   ☐ Move @nuxtus/generator to Rollup v3
 
 Archive:
