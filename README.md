@@ -11,7 +11,7 @@ A boilerplate and set of utilities for using [Directus](https://directus.io) for
 npx create-nuxtus app-name
 ```
 
-For more details visit [nuxtus.com](https://nuxtus.com) or [read the documentation](https://docs.nuxtus.com)
+For more details visit [nuxtus.com](https://www.nuxtus.com) or [read the documentation](https://docs.nuxtus.com)
 
 https://user-images.githubusercontent.com/324026/175020548-57ee94b3-dee4-4b12-a8c8-6c0f1a94fab4.mov
 
