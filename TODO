@@ -1,5 +1,6 @@
 
 Todo:
+  ☐ URGENT: SHOULD MOVE DIRECTUS CREDENTIALS OUT OF PUBLIC runtime config! Should be private or recommend using a user with only read permissions!
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ☐ Nuxtus website should actually pull data from Directus!
@@ -7,7 +8,12 @@ Todo:
   ☐ Use nuxt.config in generator login.ts instead of env
   ☐ Move the Directus email/password and token to private server variables and use a server middleware (https://nuxt.com/docs/guide/directory-structure/server#server-middleware) to login and provide AUTH_TOKEN back to client. This workflow only needed if not rendering a static site.
   ✔ Make nuxtus/nuxtus readme more of a landing page for the entire nuxt project @done(22-11-19 15:20)
-  ☐ Move @nuxtus/generator to Rollup v3
+  ✔ Move @nuxtus/generator to Rollup v3 @done(24-02-14 19:48)
+  ☐ If Collections are hidden, don't create Nuxtus pages
+  ☐ Had an issue when a Directus collection name had a space in it (eg. "Builder Pages") in generator
+  ☐ Add a nuxtus.config.json file that allos include/exclude of collections to create, perhaps also if they are components or pages?
+  ☐ Set up automatic renovate for packages with tests
+  ☐ Update nuxt and change to ^3 in nuxtus/client
 
 Archive:
   ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44) @project(Todo)

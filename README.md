@@ -18,3 +18,12 @@ https://user-images.githubusercontent.com/324026/175020548-57ee94b3-dee4-4b12-a8
 The purpose of this template is to be a quick-start for developing a website with Nuxt.js using Directus as the backend. The end result can be a static website or dynamically pull data from Directus depending on your preference.
 
 It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a command line interface for quickly creating multiple index/detail pages from any Directus collections.
+
+### Dependency graph
+
+generator
+nuxt-module
+nuxt-cli
+localtunnel
+hook
+nuxtus
