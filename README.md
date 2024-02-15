@@ -27,3 +27,4 @@ nuxt-cli
 localtunnel
 hook
 nuxtus
+create-nuxtus
