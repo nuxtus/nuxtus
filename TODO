@@ -14,6 +14,10 @@ Todo:
   ☐ Add a nuxtus.config.json file that allos include/exclude of collections to create, perhaps also if they are components or pages?
   ☐ Set up automatic renovate for packages with tests
   ☐ Update nuxt and change to ^3 in nuxtus/client
+  ☐ Remove google fonts as a dependency?
+  ☐ Automatically add directus credentials to /client/nuxt.config.ts (They are not inside runtime -> public and are expected there at the moment. Shouldn't be using admin creds there!!!!)
+  ☐ Node needs to be 20 everywhere now! (Otherwise Directus won't start)
+  ☐ Move generator from rollup to vite
 
 Archive:
   ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44) @project(Todo)
