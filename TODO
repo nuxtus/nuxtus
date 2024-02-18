@@ -11,7 +11,7 @@ Todo:
   ✔ Move @nuxtus/generator to Rollup v3 @done(24-02-14 19:48)
   ☐ If Collections are hidden, don't create Nuxtus pages
   ☐ Had an issue when a Directus collection name had a space in it (eg. "Builder Pages") in generator
-  ☐ Add a nuxtus.config.json file that allos include/exclude of collections to create, perhaps also if they are components or pages?
+  ☐ Add a nuxtus.config.json file that allows include/exclude of collections to create, perhaps also if they are components or pages?
   ☐ Set up automatic renovate for packages with tests
   ☐ Update nuxt and change to ^3 in nuxtus/client
   ☐ Remove google fonts as a dependency?
