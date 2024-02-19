@@ -10,7 +10,7 @@ Todo:
   ☐ Update nuxt and change to ^3 in nuxtus/client
   ✔ Automatically add directus credentials to /client/nuxt.config.ts (They are not inside runtime -> public and are expected there at the moment. Shouldn't be using admin creds there!!!!) @done(24-02-18 21:34)
   ☐ Node needs to be 20 everywhere now! (Otherwise Directus won't start)
-  ☐ Write some docs on "permissions" - options being a publicly accessible read of collections OR a token. Put this in a quickstart and in more detail
+  ✔ Write some docs on "permissions" - options being a publicly accessible read of collections OR a token. Put this in a quickstart and in more detail @done(24-02-19 08:12)
 
 Future features:
   ☐ Add a nuxtus.config.json file that allows include/exclude of collections to create, perhaps also if they are components or pages?
