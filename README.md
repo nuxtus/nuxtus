@@ -21,6 +21,8 @@ It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a 
 
 ### Dependency graph
 
+The below shows the Nuxtus projects in order based on packages that depend on each other with generator having no Nuxtus dependencies and create-nuxtus requiring all packages. This assists in development and deployment of new versions.
+
 generator
 nuxt-module
 nuxt-cli
