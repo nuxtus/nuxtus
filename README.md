@@ -23,10 +23,10 @@ It also includes [nuxtus/cli]("https://github.com/nuxtus/cli") which provides a 
 
 The below shows the Nuxtus projects in order based on packages that depend on each other with generator having no Nuxtus dependencies and create-nuxtus requiring all packages. This assists in development and deployment of new versions.
 
-generator
-nuxt-module
-nuxt-cli
-localtunnel
-hook
-nuxtus
-create-nuxtus
+generator :: creates nuxt pages from Directus collections
+nuxt-module :: a Nuxt module that includes generator for creating nuxt pages in a nuxt project during development
+nuxt-cli :: a CLI tool to manually generate Nuxt pages rather than using autogeneration, used within a Nuxt project
+localtunnel :: a Nuxt module that allows external access to a local Nuxt development project using Local Tunnel
+hook :: a Directus webhook extension that handles the automatic creation of Nuxt pages and types when a new collection is created in Directus
+nuxtus :: the boilerplate project used by create-nuxtus to generate the Directus server and Nuxtus client
+create-nuxtus :: npx package to quickly and easily create a new Nuxtus project
