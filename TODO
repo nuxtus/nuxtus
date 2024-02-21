@@ -1,13 +1,28 @@
 
 Todo:
+  ✔ URGENT: SHOULD MOVE DIRECTUS CREDENTIALS OUT OF PUBLIC runtime config! Should be private or recommend using a user with only read permissions! @done(24-02-18 21:35)
+  ✔ Move the Directus email/password and token to private server variables and use a server middleware (https://nuxt.com/docs/guide/directory-structure/server#server-middleware) to login and provide AUTH_TOKEN back to client. This workflow only needed if not rendering a static site. @done(24-02-19 16:49)
+  ✔ Make nuxtus/nuxtus readme more of a landing page for the entire nuxt project @done(22-11-19 15:20)
+  ✔ Move @nuxtus/generator to Rollup v3 @done(24-02-14 19:48)
+  ✔ Had an issue when a Directus collection name had a space in it (eg. "Builder Pages") in generator @done(24-02-19 21:03)
+  ☐ Set up automatic renovate for packages with tests
+  ✔ Update nuxt and change to ^3 in nuxtus/client @done(24-02-19 16:51)
+  ✔ Automatically add directus credentials to /client/nuxt.config.ts (They are not inside runtime -> public and are expected there at the moment. Shouldn't be using admin creds there!!!!) @done(24-02-18 21:34)
+  ✔ Node needs to be 20 everywhere now! (Otherwise Directus won't start) @done(24-02-19 15:14)
+  ✔ Write some docs on "permissions" - options being a publicly accessible read of collections OR a token. Put this in a quickstart and in more detail @done(24-02-19 08:12)
+  ✔ Fix breaking tests @done(24-02-20 21:08)
+
+Future features:
+  ☐ Add a nuxtus.config.json file that allows include/exclude of collections to create, perhaps also if they are components or pages?
   ☐ GraphQL?
   ☐ Websockets (https://github.com/br41nslug/directus-websocket-subscribe)
   ☐ Nuxtus website should actually pull data from Directus!
   ☐ Detect when Directus is not running and show error message
-  ☐ Use nuxt.config in generator login.ts instead of env
-  ☐ Move the Directus email/password and token to private server variables and use a server middleware (https://nuxt.com/docs/guide/directory-structure/server#server-middleware) to login and provide AUTH_TOKEN back to client. This workflow only needed if not rendering a static site.
-  ✔ Make nuxtus/nuxtus readme more of a landing page for the entire nuxt project @done(22-11-19 15:20)
-  ☐ Move @nuxtus/generator to Rollup v3
+  ☐ If Collections are hidden, don't create Nuxtus pages?
+  ☐ Remove google fonts as a dependency?
+  ☐ Move generator from rollup to vite
+  ☐ Automatically request all fields of a collection in the query
+  ☐ Use nuxt.config in generator login.ts instead of env?
 
 Archive:
   ✔ Make opening browser window on start optional using npm run start (not possible) @done(22-09-14 16:44) @project(Todo)
