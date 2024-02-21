@@ -6,6 +6,9 @@
 		"type": "git",
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
 	},
+	"engines": {
+		"node": "20"
+	},
 	"keywords": [
 		"Directus",
 		"Nuxt",
@@ -44,6 +47,14 @@
 				{
 					"releaseRules": [
 						{
+							"breaking": true,
+							"release": "major"
+						},
+						{
+							"type": "feat",
+							"release": "minor"
+						},
+						{
 							"type": "revert",
 							"release": "patch"
 						},
@@ -53,6 +64,15 @@
 						},
 						{
 							"type": "fix",
+							"release": "patch"
+						},
+						{
+							"type": "docs",
+							"scope": "README",
+							"release": "patch"
+						},
+						{
+							"type": "chore",
 							"release": "patch"
 						}
 					]
