@@ -1,5 +1,18 @@
 Changelog
 
+# [2.2.0](https://github.com/nuxtus/nuxtus/compare/v2.1.0...v2.2.0) (2024-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency directus to v10 ([c5f56db](https://github.com/nuxtus/nuxtus/commit/c5f56db520b6b89b2ab3dce73018f867736b83c4))
+* **deps:** update dependency nuxt-directus to v5 ([a377f27](https://github.com/nuxtus/nuxtus/commit/a377f27853b0c9c660712c0af1cc7eedd8fe7065))
+
+
+### Features
+
+* :sparkles: authenticate via token or use public role ([69e1ee4](https://github.com/nuxtus/nuxtus/commit/69e1ee44bb48581bdaf404a6a4ad8233e4b79008))
+
 # [2.1.0](https://github.com/nuxtus/nuxtus/compare/v2.0.1...v2.1.0) (2022-11-18)
 
 
