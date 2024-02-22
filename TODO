@@ -11,6 +11,8 @@ Todo:
   ✔ Node needs to be 20 everywhere now! (Otherwise Directus won't start) @done(24-02-19 15:14)
   ✔ Write some docs on "permissions" - options being a publicly accessible read of collections OR a token. Put this in a quickstart and in more detail @done(24-02-19 08:12)
   ✔ Fix breaking tests @done(24-02-20 21:08)
+  ☐ Update all readme's to give more detail on Nuxtus overall.
+  ☐ Create or find an extension for Directus that can auto assign read to public user
 
 Future features:
   ☐ Add a nuxtus.config.json file that allows include/exclude of collections to create, perhaps also if they are components or pages?
