@@ -20,10 +20,11 @@ export default {
 		},
 		public: {
 			nuxtus: {
-				authDirectus: process.env.NUXTUS_DIRECTUS_AUTH,
+				authDirectus: process.env.NUXTUS_DIRECTUS_AUTH === "true",
 				// If you are not using Nuxt SSR then these credentials will be public, give user read one access
 				directus: {
 					token: "",
+					url: process.env.DIRECTUS_URL,
 				},
 			},
 		},
