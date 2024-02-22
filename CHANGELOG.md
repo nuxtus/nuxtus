@@ -1,5 +1,12 @@
 Changelog
 
+## [2.2.1](https://github.com/nuxtus/nuxtus/compare/v2.2.0...v2.2.1) (2024-02-22)
+
+
+### Bug Fixes
+
+* :bug: env variables were not correctly imported ([fff3c78](https://github.com/nuxtus/nuxtus/commit/fff3c78981f2c634d6a6ac6fa787195cb8aef271))
+
 # [2.2.0](https://github.com/nuxtus/nuxtus/compare/v2.1.0...v2.2.0) (2024-02-21)
 
 
