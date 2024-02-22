@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "@directus/sdk": "^15.0.1"
+  },
+  "volta": {
+    "node": "20.11.1"
   }
 }
