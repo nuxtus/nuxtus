@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "directus": "^10.0.0"
+  },
+  "volta": {
+    "node": "20.11.1"
   }
 }
