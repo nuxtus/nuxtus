@@ -1,5 +1,12 @@
 Changelog
 
+## [2.2.3](https://github.com/nuxtus/nuxtus/compare/v2.2.2...v2.2.3) (2024-02-23)
+
+
+### Bug Fixes
+
+* :arrow_up: push all node packages to node 20 ([49f4534](https://github.com/nuxtus/nuxtus/commit/49f45343eea11d857d67d1693ec1c8b281bd98a7))
+
 ## [2.2.2](https://github.com/nuxtus/nuxtus/compare/v2.2.1...v2.2.2) (2024-02-23)
 
 ## [2.2.1](https://github.com/nuxtus/nuxtus/compare/v2.2.0...v2.2.1) (2024-02-22)
