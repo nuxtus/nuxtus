@@ -14,7 +14,7 @@
     "nuxt": "^3.10.2"
   },
   "dependencies": {
-    "@directus/sdk": "^15.0.1"
+    "@directus/sdk": "^17.0.0"
   },
   "volta": {
     "node": "20.11.1"
