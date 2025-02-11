@@ -7,7 +7,7 @@
 		"url": "git+https://github.com/nuxtus/nuxtus.git"
 	},
 	"engines": {
-		"node": "20"
+		"node": "22"
 	},
 	"keywords": [
 		"Directus",
@@ -91,6 +91,6 @@
 		]
 	},
 	"volta": {
-		"node": "20.11.1"
+		"node": "22.14.0"
 	}
 }
