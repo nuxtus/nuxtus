@@ -1,5 +1,12 @@
 Changelog
 
+## [2.3.2](https://github.com/nuxtus/nuxtus/compare/v2.3.1...v2.3.2) (2026-03-16)
+
+
+### Bug Fixes
+
+* override isolated-vm to v6 for Node 24 compatibility ([9d5d46c](https://github.com/nuxtus/nuxtus/commit/9d5d46c49f216da6ef3cc1827b3f7acce3a279cf))
+
 ## [2.3.1](https://github.com/nuxtus/nuxtus/compare/v2.3.0...v2.3.1) (2026-03-16)
 
 # [2.3.0](https://github.com/nuxtus/nuxtus/compare/v2.2.4...v2.3.0) (2026-03-16)
