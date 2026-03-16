@@ -1,5 +1,14 @@
 Changelog
 
+# [2.3.0](https://github.com/nuxtus/nuxtus/compare/v2.2.4...v2.3.0) (2026-03-16)
+
+
+### Features
+
+* [US-001] - Upgrade Node version requirements to 22 ([409f446](https://github.com/nuxtus/nuxtus/commit/409f4466d1208f2ec349d8b652b769de055ee52d))
+* [US-002] - Upgrade Directus to v11 in server ([4079858](https://github.com/nuxtus/nuxtus/commit/4079858cd94b498bcc57f587005775a7360c888e))
+* [US-003] - Upgrade @directus/sdk to v21 in client ([5722509](https://github.com/nuxtus/nuxtus/commit/572250938ed8a9598629499a94741d6200d66374))
+
 ## [2.2.4](https://github.com/nuxtus/nuxtus/compare/v2.2.3...v2.2.4) (2026-03-16)
 
 ## [2.2.3](https://github.com/nuxtus/nuxtus/compare/v2.2.2...v2.2.3) (2024-02-23)
