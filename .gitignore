@@ -7,3 +7,4 @@ server/uploads/*
 client/pages/*
 server/data.db
 server/extensions/hooks/*
+.context

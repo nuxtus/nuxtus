@@ -11,9 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "directus": "^10.0.0"
+    "directus": "^11.4.0"
   },
   "volta": {
-    "node": "20.11.1"
+    "node": "24.14.0"
   }
 }
