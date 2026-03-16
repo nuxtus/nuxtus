@@ -13,6 +13,9 @@
   "dependencies": {
     "directus": "^11.4.0"
   },
+  "overrides": {
+    "isolated-vm": "^6.1.2"
+  },
   "volta": {
     "node": "24.14.0"
   }
