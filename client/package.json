@@ -9,7 +9,7 @@
   "devDependencies": {
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/tailwindcss": "6.14.0",
-    "@nuxtus/cli": "2.1.0",
+    "@nuxtus/cli": "2.1.2",
     "@nuxtus/nuxt-module": "2.4.0",
     "nuxt": "^3.10.2"
   },
