@@ -1,5 +1,7 @@
 Changelog
 
+## [2.3.5](https://github.com/nuxtus/nuxtus/compare/v2.3.4...v2.3.5) (2026-03-20)
+
 ## [2.3.4](https://github.com/nuxtus/nuxtus/compare/v2.3.3...v2.3.4) (2026-03-16)
 
 ## [2.3.3](https://github.com/nuxtus/nuxtus/compare/v2.3.2...v2.3.3) (2026-03-16)
