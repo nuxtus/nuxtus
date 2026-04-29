@@ -1,7 +1,7 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default {
 	buildModules: ["@nuxtjs/google-fonts"],
-	modules: ["@nuxtjs/tailwindcss", "@nuxtus/nuxt-module"],
+	modules: ["@nuxtjs/tailwindcss", "@resultcrafter/nuxtus-nuxt-module"],
 	googleFonts: {
 		families: {
 			Inter: true,
