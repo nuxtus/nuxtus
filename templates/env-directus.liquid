@@ -53,7 +53,12 @@ PUBLIC_URL="/"
 {{ database }}
 
 # SSL options for remote databases (PostgreSQL, CockroachDB)
-# Uncomment if needed: DB_SSL=true and DB_SSL__REJECT_UNAUTHORIZED="false"
+# WARNING: DB_SSL__REJECT_UNAUTHORIZED=false disables certificate verification (MITM risk).
+# For production, provide proper certificates instead:
+# DB_SSL__REJECT_UNAUTHORIZED="false"
+# DB_SSL__CA="/path/to/ca-cert.pem"
+# DB_SSL__CERT="/path/to/client-cert.pem"
+# DB_SSL__KEY="/path/to/client-key.pem"
 
 # These match the databases defined in the docker-compose file in the root of this repo
 
