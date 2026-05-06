@@ -9,12 +9,13 @@
   "devDependencies": {
     "@nuxtjs/google-fonts": "3.2.0",
     "@nuxtjs/tailwindcss": "6.14.0",
-    "@nuxtus/cli": "2.1.4",
-    "@nuxtus/nuxt-module": "2.4.3",
+    "@nuxtus/cli": "2.1.5",
+    "@nuxtus/nuxt-localtunnel": "1.0.1",
+    "@nuxtus/nuxt-module": "2.4.5",
     "nuxt": "^3.10.2"
   },
   "dependencies": {
-    "@directus/sdk": "^21.0.0"
+    "@directus/sdk": "^21.2.0"
   },
   "volta": {
     "node": "24.14.0"
