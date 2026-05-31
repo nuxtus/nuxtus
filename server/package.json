@@ -14,7 +14,7 @@
     "directus": "^11.4.0"
   },
   "overrides": {
-    "isolated-vm": "^6.1.2"
+    "isolated-vm": "^7.0.0"
   },
   "volta": {
     "node": "24.14.1"
